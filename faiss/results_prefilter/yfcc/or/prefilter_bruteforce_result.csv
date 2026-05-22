@@ -1,0 +1,2 @@
+Method,QPS,Recall,AvgCandidates,FilterTime,SearchTime
+prefilter_bruteforce,12.5219,0.9993,321121,62.6422,15.3805

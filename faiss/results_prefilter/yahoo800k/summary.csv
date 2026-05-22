@@ -1,0 +1,4 @@
+dataset,scenario,method,qps,recall@10,avg_candidates,filter_time,search_time,status,timestamp
+yahoo800k,and,prefilter_bruteforce,22.7637,0.9726,80760.5,10.0377,33.1207,success,2026-05-05T17:52:41.291304
+yahoo800k,or,prefilter_bruteforce,4.98189,0.9762,497576.0,10.1247,188.809,success,2026-05-05T17:56:16.932060
+yahoo800k,equal,prefilter_bruteforce,58.4513,0.9769,17522.1,8.08328,8.81172,success,2026-05-05T17:56:48.806275

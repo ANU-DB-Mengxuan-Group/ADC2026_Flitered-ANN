@@ -1,0 +1,12 @@
+{
+  "completed": [
+    "arxiv_nb_64",
+    "arxiv_nb_128",
+    "arxiv_nb_256",
+    "arxiv_nb_512",
+    "arxiv_nb_1024",
+    "arxiv_nb_2048",
+    "arxiv_nb_4096"
+  ],
+  "failed": []
+}

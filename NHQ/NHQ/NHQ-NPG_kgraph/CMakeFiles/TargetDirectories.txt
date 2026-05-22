@@ -1,0 +1,10 @@
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/CMakeFiles/edit_cache.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/CMakeFiles/rebuild_cache.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/src/CMakeFiles/efanna2e.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/src/CMakeFiles/efanna2e_s.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/src/CMakeFiles/edit_cache.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/src/CMakeFiles/rebuild_cache.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/tests/CMakeFiles/test_dng_index.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/tests/CMakeFiles/test_dng_optimized_search.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/tests/CMakeFiles/edit_cache.dir
+/home/remote/u7905817/benchmarks/discrete/NHQ/NHQ/NHQ-NPG_kgraph/tests/CMakeFiles/rebuild_cache.dir

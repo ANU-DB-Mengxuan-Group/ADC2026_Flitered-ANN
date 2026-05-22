@@ -1,0 +1,13 @@
+dataset,scenario,M,ef_construction,index_budget,hist_pct,num_threads,ef_search,build_time_s,index_size_mb,search_time_s,qps,recall_at_10
+tripclick,original_eq,16,40,1.0,0.25,16,10,155.58,3351.5,0.045,22406.8,0.697900
+tripclick,original_eq,16,40,1.0,0.25,16,20,155.58,3351.5,0.049,20211.0,0.726700
+tripclick,original_eq,16,40,1.0,0.25,16,30,155.58,3351.5,0.059,16903.9,0.752200
+tripclick,original_eq,16,40,1.0,0.25,16,40,155.58,3351.5,0.069,14496.4,0.765600
+tripclick,original_eq,16,40,1.0,0.25,16,50,155.58,3351.5,0.081,12419.4,0.773100
+tripclick,original_eq,16,40,1.0,0.25,16,60,155.58,3351.5,0.090,11059.3,0.778400
+tripclick,original_eq,16,40,1.0,0.25,16,70,155.58,3351.5,0.098,10155.6,0.781900
+tripclick,original_eq,16,40,1.0,0.25,16,80,155.58,3351.5,0.108,9228.9,0.785100
+tripclick,original_eq,16,40,1.0,0.25,16,90,155.58,3351.5,0.116,8657.8,0.786800
+tripclick,original_eq,16,40,1.0,0.25,16,100,155.58,3351.5,0.123,8099.3,0.789400
+tripclick,original_eq,16,40,1.0,0.25,16,150,155.58,3351.5,0.164,6086.5,0.795900
+tripclick,original_eq,16,40,1.0,0.25,16,200,155.58,3351.5,0.202,4959.7,0.797200

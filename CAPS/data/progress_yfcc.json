@@ -1,0 +1,12 @@
+{
+  "completed": [
+    "yfcc_nb_64",
+    "yfcc_nb_128",
+    "yfcc_nb_256",
+    "yfcc_nb_512",
+    "yfcc_nb_1024",
+    "yfcc_nb_2048",
+    "yfcc_nb_4096"
+  ],
+  "failed": []
+}

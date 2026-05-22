@@ -1,0 +1,16 @@
+dataset,scenario,card,LID,rule_prediction,routed_recall,oracle_method,oracle_recall,match_oracle,match_candidate,recall_ACORN,recall_Post-filter,recall_SIEVE
+synth_192d,and,200,25,SIEVE,0.9999,SIEVE,0.9999,True,True,0.5388,0.7769,0.9999
+synth_192d,or,200,25,Post-filter,0.9966,ACORN,0.9998,False,False,0.9998,0.9966,0.9987
+synth_192d,equal,200,25,UNG,,Post-filter,0.6946,False,False,0.4649,0.6946,0.1554
+synth_512d,and,30,35,UNG,,Post-filter,0.9951,False,False,0.9348,0.9951,0.994
+synth_512d,or,30,35,Post-filter,0.9999,Post-filter,0.9999,True,True,0.9979,0.9999,0.9637
+synth_512d,equal,30,35,UNG,,Post-filter,0.9074,False,False,0.6273,0.9074,0.5234
+synth_768d_hc,and,1000,25,SIEVE,1.0,SIEVE,1.0,True,True,0.2332,0.6339,1.0
+synth_768d_hc,or,1000,25,Post-filter,0.999,SIEVE,1.0,False,False,0.9811,0.999,1.0
+synth_768d_hc,equal,1000,25,UNG,,Post-filter,0.7599,False,False,0.3626,0.7599,0.159
+yahoo800k,and,10,30,UNG,,ACORN,0.9721,False,False,0.9721,0.9357,0.9126
+yahoo800k,or,10,30,Post-filter,0.9419,ACORN,0.9717,False,True,0.9717,0.9419,0.917
+yahoo800k,equal,10,30,UNG,,ACORN,0.9625,False,False,0.9625,0.9361,0.958
+dbpedia560k,and,14,30,UNG,,Post-filter,0.9987,False,False,0.9975,0.9987,0.9438
+dbpedia560k,or,14,30,Post-filter,0.9487,ACORN,0.9856,False,True,0.9856,0.9487,0.86
+dbpedia560k,equal,14,30,UNG,,Post-filter,0.9973,False,False,0.9791,0.9973,0.9542

@@ -1,0 +1,392 @@
+{
+  "progress": {
+    "[32, 48, 4, null]": {
+      "build_done": true,
+      "build_time": 642.8521149158478,
+      "index_size": 2347.5866832733154
+    },
+    "[32, 48, 4, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8063,
+      "qps": 594.545
+    },
+    "[32, 48, 4, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9899,
+      "qps": 482.535
+    },
+    "[32, 48, 4, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8397,
+      "qps": 635.454
+    },
+    "[32, 48, 8, null]": {
+      "build_done": true,
+      "build_time": 946.8212456703186,
+      "index_size": 2363.3488903045654
+    },
+    "[32, 48, 8, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8471,
+      "qps": 569.895
+    },
+    "[32, 48, 8, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9943,
+      "qps": 469.994
+    },
+    "[32, 48, 8, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8884,
+      "qps": 572.848
+    },
+    "[32, 48, 12, null]": {
+      "build_done": true,
+      "build_time": 1257.8014168739319,
+      "index_size": 2379.1110973358154
+    },
+    "[32, 48, 12, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8607,
+      "qps": 560.1
+    },
+    "[32, 48, 12, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9924,
+      "qps": 467.244
+    },
+    "[32, 48, 12, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8937,
+      "qps": 602.245
+    },
+    "[32, 48, 24, null]": {
+      "build_done": true,
+      "build_time": 2295.7619490623474,
+      "index_size": 2426.3977184295654
+    },
+    "[32, 48, 24, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8931,
+      "qps": 542.699
+    },
+    "[32, 48, 24, \"or\"]": {
+      "search_done": true,
+      "recall": 0.995,
+      "qps": 460.599
+    },
+    "[32, 48, 24, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9002,
+      "qps": 585.862
+    },
+    "[32, 64, 4, null]": {
+      "build_done": true,
+      "build_time": 682.3673512935638,
+      "index_size": 2408.6491832733154
+    },
+    "[32, 64, 4, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8019,
+      "qps": 563.813
+    },
+    "[32, 64, 4, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9884,
+      "qps": 486.097
+    },
+    "[32, 64, 4, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8602,
+      "qps": 615.203
+    },
+    "[32, 64, 8, null]": {
+      "build_done": true,
+      "build_time": 1001.7574226856232,
+      "index_size": 2424.4113903045654
+    },
+    "[32, 64, 8, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.841,
+      "qps": 541.679
+    },
+    "[32, 64, 8, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9914,
+      "qps": 480.165
+    },
+    "[32, 64, 8, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8978,
+      "qps": 587.236
+    },
+    "[32, 64, 12, null]": {
+      "build_done": true,
+      "build_time": 1320.531262397766,
+      "index_size": 2440.1735973358154
+    },
+    "[32, 64, 12, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.867,
+      "qps": 525.451
+    },
+    "[32, 64, 12, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9922,
+      "qps": 475.465
+    },
+    "[32, 64, 12, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9,
+      "qps": 580.949
+    },
+    "[32, 64, 24, null]": {
+      "build_done": true,
+      "build_time": 2379.799588918686,
+      "index_size": 2487.4602184295654
+    },
+    "[32, 64, 24, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8972,
+      "qps": 512.678
+    },
+    "[32, 64, 24, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9949,
+      "qps": 465.338
+    },
+    "[32, 64, 24, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9133,
+      "qps": 568.726
+    },
+    "[48, 48, 4, null]": {
+      "build_done": true,
+      "build_time": 1066.0791873931885,
+      "index_size": 2438.9983043670654
+    },
+    "[48, 48, 4, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8708,
+      "qps": 474.777
+    },
+    "[48, 48, 4, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9929,
+      "qps": 424.169
+    },
+    "[48, 48, 4, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8937,
+      "qps": 490.265
+    },
+    "[48, 48, 8, null]": {
+      "build_done": true,
+      "build_time": 1567.2887461185455,
+      "index_size": 2454.5783824920654
+    },
+    "[48, 48, 8, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8655,
+      "qps": 475.993
+    },
+    "[48, 48, 8, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9933,
+      "qps": 364.67
+    },
+    "[48, 48, 8, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8953,
+      "qps": 484.534
+    },
+    "[48, 48, 12, null]": {
+      "build_done": true,
+      "build_time": 2003.0686576366425,
+      "index_size": 2470.1584606170654
+    },
+    "[48, 48, 12, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8941,
+      "qps": 466.851
+    },
+    "[48, 48, 12, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9937,
+      "qps": 365.185
+    },
+    "[48, 48, 12, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9128,
+      "qps": 481.374
+    },
+    "[48, 64, 4, null]": {
+      "build_done": true,
+      "build_time": 1135.7255508899689,
+      "index_size": 2500.0608043670654
+    },
+    "[48, 64, 4, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8737,
+      "qps": 444.139
+    },
+    "[48, 64, 4, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9956,
+      "qps": 367.612
+    },
+    "[48, 64, 4, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8799,
+      "qps": 471.776
+    },
+    "[48, 64, 8, null]": {
+      "build_done": true,
+      "build_time": 1682.3366973400116,
+      "index_size": 2515.6408824920654
+    },
+    "[48, 64, 8, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8881,
+      "qps": 438.11
+    },
+    "[48, 64, 8, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9957,
+      "qps": 363.403
+    },
+    "[48, 64, 8, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9118,
+      "qps": 462.596
+    },
+    "[48, 64, 12, null]": {
+      "build_done": true,
+      "build_time": 2099.004694700241,
+      "index_size": 2531.2209606170654
+    },
+    "[48, 64, 12, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8877,
+      "qps": 439.986
+    },
+    "[48, 64, 12, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9958,
+      "qps": 362.766
+    },
+    "[48, 64, 12, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9074,
+      "qps": 464.142
+    },
+    "[48, 96, 4, null]": {
+      "build_done": true,
+      "build_time": 1256.579782962799,
+      "index_size": 2622.1858043670654
+    },
+    "[48, 96, 4, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8808,
+      "qps": 405.051
+    },
+    "[48, 96, 4, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9956,
+      "qps": 377.514
+    },
+    "[48, 96, 4, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8913,
+      "qps": 448.381
+    },
+    "[48, 96, 8, null]": {
+      "build_done": true,
+      "build_time": 1821.1975147724152,
+      "index_size": 2637.7658824920654
+    },
+    "[48, 96, 8, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8887,
+      "qps": 397.464
+    },
+    "[48, 96, 8, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9961,
+      "qps": 374.03
+    },
+    "[48, 96, 8, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9178,
+      "qps": 501.419
+    },
+    "[64, 64, 4, null]": {
+      "build_done": true,
+      "build_time": 2352.5707578659058,
+      "index_size": 2591.5832500457764
+    },
+    "[64, 64, 4, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8585,
+      "qps": 159.78
+    },
+    "[64, 64, 4, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9949,
+      "qps": 199.558
+    },
+    "[64, 64, 4, \"and\"]": {
+      "search_done": true,
+      "recall": 0.8974,
+      "qps": 207.363
+    },
+    "[64, 96, 4, null]": {
+      "build_done": true,
+      "build_time": 2886.475405693054,
+      "index_size": 2713.7082500457764
+    },
+    "[64, 96, 4, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.8909,
+      "qps": 143.863
+    },
+    "[64, 96, 4, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9966,
+      "qps": 200.043
+    },
+    "[64, 96, 4, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9107,
+      "qps": 169.658
+    },
+    "[32, 96, 4, null]": {
+      "build_done": false,
+      "failure_reason": "error",
+      "failure_time": "2025-12-11T03:11:35.912452",
+      "error_message": "Command '['../build/demos/build_acorn_index', '1000448', '4', '/home/remote/u7905817/benchmarks/datasets/discrete/LAION1M/LAION1M_base.fvecs', '32', '96', '/home/remote/u7905817/benchmarks/discrete/AC"
+    },
+    "[32, 96, 8, null]": {
+      "build_done": false,
+      "failure_reason": "error",
+      "failure_time": "2025-12-11T03:11:38.486227",
+      "error_message": "Command '['../build/demos/build_acorn_index', '1000448', '8', '/home/remote/u7905817/benchmarks/datasets/discrete/LAION1M/LAION1M_base.fvecs', '32', '96', '/home/remote/u7905817/benchmarks/discrete/AC"
+    },
+    "[32, 96, 12, null]": {
+      "build_done": false,
+      "failure_reason": "error",
+      "failure_time": "2025-12-11T03:11:41.082270",
+      "error_message": "Command '['../build/demos/build_acorn_index', '1000448', '12', '/home/remote/u7905817/benchmarks/datasets/discrete/LAION1M/LAION1M_base.fvecs', '32', '96', '/home/remote/u7905817/benchmarks/discrete/A"
+    },
+    "[32, 96, 24, null]": {
+      "build_done": false,
+      "failure_reason": "error",
+      "failure_time": "2025-12-11T03:11:43.678121",
+      "error_message": "Command '['../build/demos/build_acorn_index', '1000448', '24', '/home/remote/u7905817/benchmarks/datasets/discrete/LAION1M/LAION1M_base.fvecs', '32', '96', '/home/remote/u7905817/benchmarks/discrete/A"
+    }
+  },
+  "last_update": "2025-12-11T03:11:43.678473",
+  "total_tasks": 76,
+  "completed_builds": 18,
+  "completed_searches": 54
+}

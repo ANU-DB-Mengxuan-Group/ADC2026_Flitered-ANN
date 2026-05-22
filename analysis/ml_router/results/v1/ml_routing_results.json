@@ -1,0 +1,86 @@
+{
+  "RuleRouter": {
+    "mean_accuracy": 0.5336666666666666,
+    "per_dataset": {
+      "LAION1M": 0.6733333333333333,
+      "arxiv": 0.3333333333333333,
+      "tripclick": 0.675,
+      "yfcc": 0.341,
+      "ytb_audio": 0.4726666666666667,
+      "ytb_video": 0.7066666666666667
+    }
+  },
+  "XGBoost": {
+    "mean_accuracy": 0.7125,
+    "per_dataset": {
+      "LAION1M": 0.7546666666666667,
+      "arxiv": 0.66,
+      "tripclick": 0.927,
+      "yfcc": 0.6006666666666667,
+      "ytb_audio": 0.626,
+      "ytb_video": 0.7066666666666667
+    }
+  },
+  "RandomForest": {
+    "mean_accuracy": 0.7441111111111112,
+    "per_dataset": {
+      "LAION1M": 0.9856666666666667,
+      "arxiv": 0.6716666666666666,
+      "tripclick": 0.927,
+      "yfcc": 0.557,
+      "ytb_audio": 0.6166666666666667,
+      "ytb_video": 0.7066666666666667
+    }
+  },
+  "MLP": {
+    "mean_accuracy": 0.738,
+    "per_dataset": {
+      "LAION1M": 0.95,
+      "arxiv": 0.6616666666666666,
+      "tripclick": 0.927,
+      "yfcc": 0.5566666666666666,
+      "ytb_audio": 0.626,
+      "ytb_video": 0.7066666666666667
+    }
+  },
+  "LogisticRegression": {
+    "mean_accuracy": 0.5045000000000001,
+    "per_dataset": {
+      "LAION1M": 0.8553333333333333,
+      "arxiv": 0.8116666666666666,
+      "tripclick": 0.927,
+      "yfcc": 0.0033333333333333335,
+      "ytb_audio": 0.036333333333333336,
+      "ytb_video": 0.3933333333333333
+    }
+  },
+  "feature_importance": {
+    "model": "XGBoost",
+    "features": {
+      "label_cardinality": 0.20926356315612793,
+      "label_entropy": 0.12956735491752625,
+      "avg_labels_per_vec": 0.10436123609542847,
+      "scenario_or": 0.09374184906482697,
+      "scenario_equal": 0.0813557431101799,
+      "N": 0.07960311323404312,
+      "num_unique_combos": 0.06267765909433365,
+      "LID_mean": 0.05054505541920662,
+      "dim": 0.03322356194257736,
+      "LID_median": 0.02504057250916958,
+      "scenario_and": 0.024870187044143677,
+      "LID_std": 0.019289247691631317,
+      "query_label_count": 0.014909310266375542,
+      "selectivity": 0.01326685305684805,
+      "label_cooccurrence": 0.011966029182076454,
+      "DF_mean_swd": 0.009221593849360943,
+      "RC_median": 0.007407901342958212,
+      "RC_trimmed_mean": 0.005237360950559378,
+      "correlation_ratio": 0.005122319795191288,
+      "RC_p95": 0.004807095974683762,
+      "max_label_freq": 0.004528771620243788,
+      "mean_label_freq": 0.003958795219659805,
+      "min_label_freq": 0.003786491695791483,
+      "normalized_ratio": 0.0022483726497739553
+    }
+  }
+}

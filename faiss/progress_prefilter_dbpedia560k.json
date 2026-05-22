@@ -1,0 +1,8 @@
+{
+  "completed": [
+    "dbpedia560k_and",
+    "dbpedia560k_or",
+    "dbpedia560k_equal"
+  ],
+  "failed": []
+}

@@ -1,0 +1,60 @@
+{
+  "experiment": "layers_ablation",
+  "feature_set": "minimal",
+  "n_input_dim": 5,
+  "n_methods": 5,
+  "methods": [
+    "UNG",
+    "Post-filter",
+    "SIEVE",
+    "ACORN",
+    "FilteredVamana"
+  ],
+  "n_train": 13200,
+  "n_val": 15000,
+  "oracle_recall": 0.99542,
+  "variants": {
+    "1L": {
+      "n_hidden_layers": 1,
+      "hidden_layer_sizes": [
+        32
+      ],
+      "recall": 0.9893399999999999,
+      "gap_to_oracle": 0.006080000000000085,
+      "time_us_per_query": 0.20182900000000006
+    },
+    "2L": {
+      "n_hidden_layers": 2,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "recall": 0.9863466666666667,
+      "gap_to_oracle": 0.009073333333333267,
+      "time_us_per_query": 0.5018489726666668
+    },
+    "3L": {
+      "n_hidden_layers": 3,
+      "hidden_layer_sizes": [
+        128,
+        64,
+        32
+      ],
+      "recall": 0.9895533333333333,
+      "gap_to_oracle": 0.005866666666666687,
+      "time_us_per_query": 1.504457
+    },
+    "4L": {
+      "n_hidden_layers": 4,
+      "hidden_layer_sizes": [
+        256,
+        128,
+        64,
+        32
+      ],
+      "recall": 0.9873533333333333,
+      "gap_to_oracle": 0.008066666666666666,
+      "time_us_per_query": 3.378470638666665
+    }
+  }
+}

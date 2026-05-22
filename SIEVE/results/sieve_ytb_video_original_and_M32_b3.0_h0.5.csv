@@ -1,0 +1,13 @@
+dataset,scenario,M,ef_construction,index_budget,hist_pct,num_threads,ef_search,build_time_s,index_size_mb,search_time_s,qps,recall_at_10
+ytb_video,original_and,32,40,3.0,0.5,16,10,257.78,13183.6,0.038,5320.9,0.676500
+ytb_video,original_and,32,40,3.0,0.5,16,20,257.78,13183.6,0.041,4910.6,0.687000
+ytb_video,original_and,32,40,3.0,0.5,16,30,257.78,13183.6,0.051,3916.1,0.720500
+ytb_video,original_and,32,40,3.0,0.5,16,40,257.78,13183.6,0.060,3330.0,0.733000
+ytb_video,original_and,32,40,3.0,0.5,16,50,257.78,13183.6,0.061,3266.9,0.745500
+ytb_video,original_and,32,40,3.0,0.5,16,60,257.78,13183.6,0.066,3022.7,0.751000
+ytb_video,original_and,32,40,3.0,0.5,16,70,257.78,13183.6,0.071,2814.1,0.756500
+ytb_video,original_and,32,40,3.0,0.5,16,80,257.78,13183.6,0.076,2629.4,0.767500
+ytb_video,original_and,32,40,3.0,0.5,16,90,257.78,13183.6,0.081,2457.1,0.769000
+ytb_video,original_and,32,40,3.0,0.5,16,100,257.78,13183.6,0.085,2352.1,0.774500
+ytb_video,original_and,32,40,3.0,0.5,16,150,257.78,13183.6,0.114,1748.7,0.795000
+ytb_video,original_and,32,40,3.0,0.5,16,200,257.78,13183.6,0.126,1584.3,0.816500

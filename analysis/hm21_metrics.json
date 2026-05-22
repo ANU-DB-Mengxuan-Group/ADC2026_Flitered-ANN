@@ -1,0 +1,165 @@
+{
+  "dataset": "hm21",
+  "n_vectors": 105100,
+  "dimension": 2048,
+  "label_stats": {
+    "label_cardinality": 21,
+    "label_entropy": 4.24550547324375,
+    "num_unique_combos": 807,
+    "mean_combo_size": 130.23543990086742,
+    "median_combo_size": 13.0,
+    "min_combo_size": 1,
+    "max_combo_size": 11066
+  },
+  "lid": {
+    "mean": 18.591321611881256,
+    "median": 16.29965114593506,
+    "std": 10.424881024060014,
+    "min": 2.7856240272521973,
+    "max": 167.2518310546875,
+    "k": 100,
+    "n_queries": 1000
+  },
+  "rc": {
+    "median": 1.3585855960845947,
+    "trimmed_mean": 1.3981994480556912,
+    "p5": 1.1423890113830566,
+    "p95": 1.9047756969928737,
+    "k": 100,
+    "n_queries": 1000
+  },
+  "distribution_factor": {
+    "per_label": [
+      {
+        "label": 6,
+        "subset_size": 32328,
+        "selectivity": 0.307592768791627,
+        "swd": 0.04226973012714432
+      },
+      {
+        "label": 5,
+        "subset_size": 25583,
+        "selectivity": 0.24341579448144623,
+        "swd": 0.057100943604401835
+      },
+      {
+        "label": 0,
+        "subset_size": 25042,
+        "selectivity": 0.23826831588962893,
+        "swd": 0.06136207011990594
+      },
+      {
+        "label": 18,
+        "subset_size": 24220,
+        "selectivity": 0.23044719314938153,
+        "swd": 0.047689292944373775
+      },
+      {
+        "label": 7,
+        "subset_size": 20918,
+        "selectivity": 0.19902949571836345,
+        "swd": 0.0616756896249459
+      },
+      {
+        "label": 1,
+        "subset_size": 18732,
+        "selectivity": 0.1782302568981922,
+        "swd": 0.06696547773993816
+      },
+      {
+        "label": 16,
+        "subset_size": 14263,
+        "selectivity": 0.13570884871550903,
+        "swd": 0.0989606144015912
+      },
+      {
+        "label": 3,
+        "subset_size": 14236,
+        "selectivity": 0.13545195052331113,
+        "swd": 0.06651150517264831
+      },
+      {
+        "label": 20,
+        "subset_size": 12751,
+        "selectivity": 0.12132254995242626,
+        "swd": 0.03890574402556631
+      },
+      {
+        "label": 19,
+        "subset_size": 12646,
+        "selectivity": 0.12032350142721218,
+        "swd": 0.030087398262852196
+      },
+      {
+        "label": 9,
+        "subset_size": 12447,
+        "selectivity": 0.11843006660323502,
+        "swd": 0.07167679830888549
+      },
+      {
+        "label": 10,
+        "subset_size": 11533,
+        "selectivity": 0.1097335870599429,
+        "swd": 0.0781439118515386
+      },
+      {
+        "label": 15,
+        "subset_size": 11432,
+        "selectivity": 0.10877259752616555,
+        "swd": 0.07081068589711285
+      },
+      {
+        "label": 14,
+        "subset_size": 11208,
+        "selectivity": 0.10664129400570885,
+        "swd": 0.0427316310111589
+      },
+      {
+        "label": 4,
+        "subset_size": 11201,
+        "selectivity": 0.10657469077069458,
+        "swd": 0.074657321746299
+      },
+      {
+        "label": 8,
+        "subset_size": 10416,
+        "selectivity": 0.09910561370123691,
+        "swd": 0.06545014790385249
+      },
+      {
+        "label": 13,
+        "subset_size": 10151,
+        "selectivity": 0.09658420551855376,
+        "swd": 0.075501492650626
+      },
+      {
+        "label": 11,
+        "subset_size": 9964,
+        "selectivity": 0.09480494766888678,
+        "swd": 0.07767138285615456
+      },
+      {
+        "label": 17,
+        "subset_size": 9819,
+        "selectivity": 0.09342530922930542,
+        "swd": 0.12062324071520707
+      },
+      {
+        "label": 12,
+        "subset_size": 7170,
+        "selectivity": 0.06822074215033301,
+        "swd": 0.08876517005517048
+      },
+      {
+        "label": 2,
+        "subset_size": 4086,
+        "selectivity": 0.03887725975261656,
+        "swd": 0.08747932383425402
+      }
+    ],
+    "mean_swd": 0.06785902727874416,
+    "std_swd": 0.020777699879222376,
+    "max_swd": 0.12062324071520707,
+    "min_swd": 0.030087398262852196
+  }
+}

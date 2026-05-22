@@ -1,0 +1,9 @@
+{
+  "completed": [
+    "dbpedia560k_M=64_efc=400_build",
+    "dbpedia560k_and_M=64_efc=400",
+    "dbpedia560k_or_M=64_efc=400",
+    "dbpedia560k_equal_M=64_efc=400"
+  ],
+  "failed": []
+}

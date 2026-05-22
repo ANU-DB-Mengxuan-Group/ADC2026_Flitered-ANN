@@ -1,0 +1,4 @@
+./index: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.34' not found (required by ./index)
+./index: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.38' not found (required by ./index)
+./index: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by ./index)
+./index: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.32' not found (required by ./index)

@@ -1,0 +1,3 @@
+method,config,single_qps,real_qps_16t,scaling,note
+UNG,max_degree=96_Lbuild=200_Lsearch=500,101.667371147501,657.030223390276,6.462547580157686,
+SIEVE,M=32_ef_construction=40_index_budget=2.0_hist_pct=0.25_ef_search=150,924.42812468072,3508.6,3.7954275798475994,

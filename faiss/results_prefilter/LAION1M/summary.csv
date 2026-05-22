@@ -1,0 +1,4 @@
+dataset,scenario,method,qps,recall@10,avg_candidates,filter_time,search_time,status,timestamp
+LAION1M,and,prefilter_bruteforce,85.9462,1.0,86659.1,0.995554,10.5403,success,2026-01-06T02:21:46.839394
+LAION1M,or,prefilter_bruteforce,41.7003,1.0,247786.0,1.15005,22.6882,success,2026-01-06T02:22:12.437876
+LAION1M,equal,prefilter_bruteforce,200.073,1.0,28655.7,1.814,3.14438,success,2026-01-06T02:22:19.032838

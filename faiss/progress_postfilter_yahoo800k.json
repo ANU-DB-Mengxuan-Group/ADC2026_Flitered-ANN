@@ -1,0 +1,13 @@
+{
+  "completed": [
+    "yahoo800k_M=32_efc=100_build",
+    "yahoo800k_equal_M=32_efc=100",
+    "yahoo800k_or_M=32_efc=100",
+    "yahoo800k_and_M=32_efc=100",
+    "yahoo800k_M=64_efc=400_build",
+    "yahoo800k_and_M=64_efc=400",
+    "yahoo800k_or_M=64_efc=400",
+    "yahoo800k_equal_M=64_efc=400"
+  ],
+  "failed": []
+}

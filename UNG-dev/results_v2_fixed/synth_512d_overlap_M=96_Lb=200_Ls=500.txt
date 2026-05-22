@@ -1,0 +1,12 @@
+Loading data from /home/remote/u7905817/benchmarks/datasets/discrete/synth_512d/synth_512d_query_or.bin and /home/remote/u7905817/benchmarks/datasets/discrete/synth_512d/synth_512d_query_or_1based.txt ...
+- Number of points: 1000
+- Dimension: 512
+- Number of labels: 30
+- Time: 2 ms
+------------------------------------------------------------
+Loading index from /home/remote/u7905817/benchmarks/discrete/UNG-dev/indices_v2_fixed/synth_512d/general/index_M=96_L=200 ...
+- Index loaded in 6577 ms
+Ground truth loaded from /home/remote/u7905817/benchmarks/datasets/discrete/synth_512d/synth_512d_gt_or.bin
+Start querying ...
+- Lsearch=500, time=3426ms
+- all done

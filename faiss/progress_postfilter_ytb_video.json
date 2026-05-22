@@ -1,0 +1,21 @@
+{
+  "completed": [
+    "ytb_video_M=32_efc=100_build",
+    "ytb_video_and_M=32_efc=100",
+    "ytb_video_M=32_efc=200_build",
+    "ytb_video_and_M=32_efc=200",
+    "ytb_video_M=32_efc=400_build",
+    "ytb_video_and_M=32_efc=400",
+    "ytb_video_M=48_efc=100_build",
+    "ytb_video_and_M=48_efc=100",
+    "ytb_video_M=48_efc=200_build",
+    "ytb_video_and_M=48_efc=200",
+    "ytb_video_M=48_efc=400_build",
+    "ytb_video_and_M=48_efc=400",
+    "ytb_video_M=64_efc=200_build",
+    "ytb_video_and_M=64_efc=200",
+    "ytb_video_M=64_efc=400_build",
+    "ytb_video_and_M=64_efc=400"
+  ],
+  "failed": []
+}

@@ -1,0 +1,106 @@
+data/small_index_files
+data/result
+ACORN/build
+
+# UNG
+UNG-dev/build/
+UNG-dev/.vscode/
+UNG-dev/data_bin/
+UNG-dev/indices/
+UNG-dev/synthetic_labels/
+
+# General
+*.log
+.DS_Store
+*.tar.gz
+.vscode/
+# Experiment data and results
+DiskANN/data_fixed_eq/indices/
+DiskANN/data_fixed_eq/tmp_index/
+DiskANN/data_fixed_eq/progress/
+DiskANN/data_fixed_eq/converted_labels/
+DiskANN/data_stitched_eq/indices/
+DiskANN/data_stitched_eq/tmp_index/
+DiskANN/data_stitched_eq/progress/
+DiskANN/data_stitched_eq/converted_labels/
+DiskANN/indexes/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary scripts
+UNG-dev/generate_ung_groundtruth_fast.py
+UNG-dev/generate_ung_groundtruth_fixed.py
+
+# Logs
+*.log
+# Raw search result files
+DiskANN/data_*/results/**/*.bin
+DiskANN/data_*/results/**/*_search.log
+
+# DiskANN original-label experiment artifacts
+DiskANN/data_original/converted_labels/
+DiskANN/data_original/progress/
+DiskANN/data_original/tmp_index/
+DiskANN/data_stitched_original/converted_labels/
+DiskANN/data_stitched_original/progress/
+DiskANN/data_stitched_original/tmp_index/
+
+# DiskANN debug/test
+DiskANN/debug_stitched/
+DiskANN/test_stitched_arxiv/
+
+# HNSW indices (5G+, regenerable from auto_postfilter_hnsw.py builds)
+faiss/data/
+*.bak.[0-9]*_[0-9]*
+
+# === Public release: large data / build artifacts / working notes ===
+
+# Build / binary artifacts (regenerable from source)
+*.a
+*.o
+faiss/tutorial/cpp/build_HNSW_index_static
+faiss/tutorial/cpp/search_HNSW_index_static
+*/build/
+
+# Pre-built indices (regenerable from build scripts)
+NHQ/data/indices/
+ACORN/data/indices/
+CAPS/data/indices/
+
+# Synthetic labels (regenerable via generate_*_synthetic_labels.py)
+*/synthetic_labels/yfcc/
+*/synthetic_labels/*/label_*_synthetic.txt
+*/synthetic_labels/*/label_CAPS_base.txt
+*/synthetic_labels/*/label_NHQ_base.txt
+
+# Per-query and ML pipeline intermediate data (regenerable from raw results)
+# — keep small summary CSVs that plot scripts depend on, drop large per-query / prediction outputs.
+analysis/ml_router/ml_*.csv
+analysis/ml_router/centroid_features_*.csv
+analysis/ml_router/*.pkl
+analysis/ml_router/decisions_*.csv
+analysis/ml_router/per_query_results/
+analysis/ml_router/perquery_recall/*.csv
+analysis/ml_router/results/*/full_train_val_predictions_*.csv
+analysis/ml_router/results/*/layers_ablation_predictions_*.csv
+
+# Third-party paper PDFs (not redistributable)
+reference/*.pdf
+reference/*.PDF
+
+# Local SLURM job logs
+logs/*.err
+logs/*.out
+
+# Local working notes / runtime files
+yfcc_test.pid
+命令.md
+
+# IDE / OS noise
+.idea/
+*.swp
+
+# AI session history
+.specstory/

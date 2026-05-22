@@ -1,0 +1,4 @@
+dataset,scenario,method,qps,recall@10,avg_candidates,filter_time,search_time,status,timestamp
+tripclick,and,prefilter_bruteforce,92.1406,1.0,50168.2,0.984352,9.82818,success,2026-01-06T02:20:51.621081
+tripclick,or,prefilter_bruteforce,81.4714,1.0,58814.0,1.04189,11.1918,success,2026-01-06T02:21:06.133644
+tripclick,equal,prefilter_bruteforce,114.832,1.0,38804.3,0.977758,7.70024,success,2026-01-06T02:21:17.072159

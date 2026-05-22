@@ -1,0 +1,7 @@
+{
+  "completed": [
+    "arxiv_K=100_L=100_iter=12_S=10_R=100_RANGE=20_PL=150_B=0.4_M=1",
+    "arxiv_K=100_L=100_iter=12_S=10_R=200_RANGE=20_PL=250_B=0.4_M=1"
+  ],
+  "failed": []
+}

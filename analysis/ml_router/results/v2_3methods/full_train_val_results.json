@@ -1,0 +1,32 @@
+{
+  "experiment": "full_train_val",
+  "n_methods": 3,
+  "methods": [
+    "UNG",
+    "Post-filter",
+    "SIEVE"
+  ],
+  "n_train": 13200,
+  "n_val": 33000,
+  "oracle_recall": 0.9999363636363637,
+  "RuleRouter": {
+    "accuracy": 0.6506363636363637,
+    "recall": 0.9725545454545454
+  },
+  "XGBoost": {
+    "accuracy": 0.559060606060606,
+    "recall": 0.8324696969696969
+  },
+  "RandomForest": {
+    "accuracy": 0.5652727272727273,
+    "recall": 0.8325454545454546
+  },
+  "MLP": {
+    "accuracy": 0.581939393939394,
+    "recall": 0.826160606060606
+  },
+  "LogisticRegression": {
+    "accuracy": 0.5429090909090909,
+    "recall": 0.8479727272727273
+  }
+}

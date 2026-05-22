@@ -1,0 +1,4 @@
+dataset,scenario,method,qps,recall@10,avg_candidates,filter_time,search_time,status,timestamp
+ytb_audio,and,prefilter_bruteforce,66.7847,1.0,74972.3,12.2007,2.69038,success,2026-01-06T02:23:35.591492
+ytb_audio,or,prefilter_bruteforce,24.032,1.0,422221.0,18.0565,23.3786,success,2026-01-06T02:24:21.457462
+ytb_audio,equal,prefilter_bruteforce,93.1493,1.0,18330.3,9.91215,0.732981,success,2026-01-06T02:24:36.430160

@@ -1,0 +1,12 @@
+{
+  "completed": [
+    "LAION1M_nb_64",
+    "LAION1M_nb_128",
+    "LAION1M_nb_256",
+    "LAION1M_nb_512",
+    "LAION1M_nb_1024",
+    "LAION1M_nb_2048",
+    "LAION1M_nb_4096"
+  ],
+  "failed": []
+}

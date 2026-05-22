@@ -1,0 +1,69 @@
+{
+  "dataset": "synth5",
+  "n_vectors": 100000,
+  "dimension": 4096,
+  "label_stats": {
+    "label_cardinality": 5,
+    "label_entropy": 2.3007049774604873,
+    "num_unique_combos": 31,
+    "mean_combo_size": 3225.8064516129034,
+    "median_combo_size": 2362.0,
+    "min_combo_size": 437,
+    "max_combo_size": 19945
+  },
+  "lid": {
+    "mean": 23.300102557897567,
+    "median": 22.445192337036133,
+    "std": 6.708154167052165,
+    "min": 2.710703134536743,
+    "max": 51.4650764465332,
+    "k": 100,
+    "n_queries": 1000
+  },
+  "rc": {
+    "median": 1.252014696598053,
+    "trimmed_mean": 1.273855466445287,
+    "p5": 1.1354127287864686,
+    "p95": 1.5495771825313567,
+    "k": 100,
+    "n_queries": 1000
+  },
+  "distribution_factor": {
+    "per_label": [
+      {
+        "label": 0,
+        "subset_size": 77419,
+        "selectivity": 0.77419,
+        "swd": 7.107115078969121e-05
+      },
+      {
+        "label": 1,
+        "subset_size": 64922,
+        "selectivity": 0.64922,
+        "swd": 7.455137374204851e-05
+      },
+      {
+        "label": 2,
+        "subset_size": 57680,
+        "selectivity": 0.5768,
+        "swd": 7.403451565866399e-05
+      },
+      {
+        "label": 3,
+        "subset_size": 52152,
+        "selectivity": 0.52152,
+        "swd": 7.137241138535633e-05
+      },
+      {
+        "label": 4,
+        "subset_size": 47861,
+        "selectivity": 0.47861,
+        "swd": 7.730067720313186e-05
+      }
+    ],
+    "mean_swd": 7.366602575577838e-05,
+    "std_swd": 2.2857978904051176e-06,
+    "max_swd": 7.730067720313186e-05,
+    "min_swd": 7.107115078969121e-05
+  }
+}

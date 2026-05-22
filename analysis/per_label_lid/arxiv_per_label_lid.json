@@ -1,0 +1,1825 @@
+{
+  "dataset": "arxiv",
+  "global_lid": 25.5,
+  "min_subset_size": 200,
+  "k_default": 100,
+  "n_labels_total": 4231,
+  "n_labels_computed": 226,
+  "per_label": [
+    {
+      "label": 26,
+      "subset_size": 35714,
+      "k_used": 100,
+      "mean_lid": 23.496541146278382,
+      "std_lid": 9.88273459104021,
+      "n_queries": 500
+    },
+    {
+      "label": 25,
+      "subset_size": 33526,
+      "k_used": 100,
+      "mean_lid": 23.085093667030335,
+      "std_lid": 9.719161904104656,
+      "n_queries": 500
+    },
+    {
+      "label": 24,
+      "subset_size": 22764,
+      "k_used": 100,
+      "mean_lid": 22.292996982097627,
+      "std_lid": 9.44252980982235,
+      "n_queries": 500
+    },
+    {
+      "label": 23,
+      "subset_size": 14997,
+      "k_used": 100,
+      "mean_lid": 22.242047674655915,
+      "std_lid": 8.621155971306626,
+      "n_queries": 500
+    },
+    {
+      "label": 6,
+      "subset_size": 13672,
+      "k_used": 100,
+      "mean_lid": 22.986053360939025,
+      "std_lid": 8.35657782977362,
+      "n_queries": 500
+    },
+    {
+      "label": 10,
+      "subset_size": 13124,
+      "k_used": 100,
+      "mean_lid": 21.867419959545135,
+      "std_lid": 8.506426749127035,
+      "n_queries": 500
+    },
+    {
+      "label": 5,
+      "subset_size": 12353,
+      "k_used": 100,
+      "mean_lid": 22.075560772895813,
+      "std_lid": 8.213319059300158,
+      "n_queries": 500
+    },
+    {
+      "label": 7,
+      "subset_size": 12210,
+      "k_used": 100,
+      "mean_lid": 21.34193408727646,
+      "std_lid": 8.08557529394761,
+      "n_queries": 500
+    },
+    {
+      "label": 9,
+      "subset_size": 12052,
+      "k_used": 100,
+      "mean_lid": 22.834419511795044,
+      "std_lid": 8.448396094214328,
+      "n_queries": 500
+    },
+    {
+      "label": 4,
+      "subset_size": 11842,
+      "k_used": 100,
+      "mean_lid": 21.813391901016235,
+      "std_lid": 8.21329546173786,
+      "n_queries": 500
+    },
+    {
+      "label": 8,
+      "subset_size": 10585,
+      "k_used": 100,
+      "mean_lid": 21.96354094362259,
+      "std_lid": 8.508041285494922,
+      "n_queries": 500
+    },
+    {
+      "label": 11,
+      "subset_size": 10449,
+      "k_used": 100,
+      "mean_lid": 21.976219591617586,
+      "std_lid": 8.350403330734455,
+      "n_queries": 500
+    },
+    {
+      "label": 3,
+      "subset_size": 10353,
+      "k_used": 100,
+      "mean_lid": 21.257590072631835,
+      "std_lid": 8.156386940651242,
+      "n_queries": 500
+    },
+    {
+      "label": 22,
+      "subset_size": 10156,
+      "k_used": 100,
+      "mean_lid": 21.627866990804673,
+      "std_lid": 8.538536597785686,
+      "n_queries": 500
+    },
+    {
+      "label": 2,
+      "subset_size": 9671,
+      "k_used": 100,
+      "mean_lid": 21.754077252388,
+      "std_lid": 8.341889016302625,
+      "n_queries": 500
+    },
+    {
+      "label": 12,
+      "subset_size": 8814,
+      "k_used": 100,
+      "mean_lid": 21.152397678852083,
+      "std_lid": 7.563547592883724,
+      "n_queries": 500
+    },
+    {
+      "label": 1,
+      "subset_size": 7562,
+      "k_used": 100,
+      "mean_lid": 20.610145634651182,
+      "std_lid": 8.027902567653264,
+      "n_queries": 500
+    },
+    {
+      "label": 21,
+      "subset_size": 6527,
+      "k_used": 100,
+      "mean_lid": 22.732517364501952,
+      "std_lid": 7.789643102757512,
+      "n_queries": 500
+    },
+    {
+      "label": 45,
+      "subset_size": 6427,
+      "k_used": 100,
+      "mean_lid": 14.960583968639373,
+      "std_lid": 8.202174256122408,
+      "n_queries": 500
+    },
+    {
+      "label": 20,
+      "subset_size": 4810,
+      "k_used": 100,
+      "mean_lid": 20.310049087524416,
+      "std_lid": 7.151524076006326,
+      "n_queries": 500
+    },
+    {
+      "label": 77,
+      "subset_size": 4578,
+      "k_used": 100,
+      "mean_lid": 13.09110072016716,
+      "std_lid": 7.075661715327866,
+      "n_queries": 500
+    },
+    {
+      "label": 86,
+      "subset_size": 4165,
+      "k_used": 100,
+      "mean_lid": 13.598150004386902,
+      "std_lid": 7.077268959286861,
+      "n_queries": 500
+    },
+    {
+      "label": 115,
+      "subset_size": 3773,
+      "k_used": 100,
+      "mean_lid": 13.495056243658066,
+      "std_lid": 7.465764078955288,
+      "n_queries": 500
+    },
+    {
+      "label": 116,
+      "subset_size": 3730,
+      "k_used": 100,
+      "mean_lid": 14.618068522930145,
+      "std_lid": 7.336784386292726,
+      "n_queries": 500
+    },
+    {
+      "label": 70,
+      "subset_size": 3727,
+      "k_used": 100,
+      "mean_lid": 19.847394520759583,
+      "std_lid": 7.669907514140612,
+      "n_queries": 500
+    },
+    {
+      "label": 124,
+      "subset_size": 3652,
+      "k_used": 100,
+      "mean_lid": 13.963054261922837,
+      "std_lid": 7.169925502055324,
+      "n_queries": 500
+    },
+    {
+      "label": 19,
+      "subset_size": 3320,
+      "k_used": 100,
+      "mean_lid": 19.692364505767824,
+      "std_lid": 6.714548791074642,
+      "n_queries": 500
+    },
+    {
+      "label": 140,
+      "subset_size": 3039,
+      "k_used": 100,
+      "mean_lid": 19.574705423355102,
+      "std_lid": 7.199306925855136,
+      "n_queries": 500
+    },
+    {
+      "label": 66,
+      "subset_size": 2729,
+      "k_used": 100,
+      "mean_lid": 18.917253754138947,
+      "std_lid": 8.272701423215851,
+      "n_queries": 500
+    },
+    {
+      "label": 113,
+      "subset_size": 2657,
+      "k_used": 100,
+      "mean_lid": 14.717024802446366,
+      "std_lid": 7.466971312395662,
+      "n_queries": 500
+    },
+    {
+      "label": 44,
+      "subset_size": 2642,
+      "k_used": 100,
+      "mean_lid": 14.515936308860779,
+      "std_lid": 6.9645167370726515,
+      "n_queries": 500
+    },
+    {
+      "label": 34,
+      "subset_size": 2549,
+      "k_used": 100,
+      "mean_lid": 17.754451983451844,
+      "std_lid": 6.391302245911919,
+      "n_queries": 500
+    },
+    {
+      "label": 99,
+      "subset_size": 2480,
+      "k_used": 100,
+      "mean_lid": 20.19809309411049,
+      "std_lid": 6.715430514899709,
+      "n_queries": 500
+    },
+    {
+      "label": 46,
+      "subset_size": 2476,
+      "k_used": 100,
+      "mean_lid": 14.62500921368599,
+      "std_lid": 6.675527473366512,
+      "n_queries": 500
+    },
+    {
+      "label": 65,
+      "subset_size": 2439,
+      "k_used": 100,
+      "mean_lid": 19.331085653305053,
+      "std_lid": 5.9320275349157,
+      "n_queries": 500
+    },
+    {
+      "label": 93,
+      "subset_size": 2327,
+      "k_used": 100,
+      "mean_lid": 13.472207171440125,
+      "std_lid": 6.980928019182562,
+      "n_queries": 500
+    },
+    {
+      "label": 121,
+      "subset_size": 2306,
+      "k_used": 100,
+      "mean_lid": 15.355884459733963,
+      "std_lid": 6.8786775656815,
+      "n_queries": 500
+    },
+    {
+      "label": 118,
+      "subset_size": 2290,
+      "k_used": 100,
+      "mean_lid": 15.381227461338042,
+      "std_lid": 7.030033717169887,
+      "n_queries": 500
+    },
+    {
+      "label": 123,
+      "subset_size": 2272,
+      "k_used": 100,
+      "mean_lid": 15.180776005506516,
+      "std_lid": 7.073955845354839,
+      "n_queries": 500
+    },
+    {
+      "label": 174,
+      "subset_size": 2230,
+      "k_used": 100,
+      "mean_lid": 15.291397726535797,
+      "std_lid": 6.273761873136728,
+      "n_queries": 500
+    },
+    {
+      "label": 137,
+      "subset_size": 2165,
+      "k_used": 100,
+      "mean_lid": 19.045641943931578,
+      "std_lid": 5.926318352719495,
+      "n_queries": 500
+    },
+    {
+      "label": 161,
+      "subset_size": 2032,
+      "k_used": 100,
+      "mean_lid": 10.338002061128616,
+      "std_lid": 6.335426261753066,
+      "n_queries": 500
+    },
+    {
+      "label": 173,
+      "subset_size": 2001,
+      "k_used": 100,
+      "mean_lid": 15.997191472053528,
+      "std_lid": 6.054865654567482,
+      "n_queries": 500
+    },
+    {
+      "label": 188,
+      "subset_size": 1973,
+      "k_used": 100,
+      "mean_lid": 11.231905482769012,
+      "std_lid": 7.133833735741282,
+      "n_queries": 500
+    },
+    {
+      "label": 97,
+      "subset_size": 1902,
+      "k_used": 100,
+      "mean_lid": 17.854332137584688,
+      "std_lid": 6.43248185813879,
+      "n_queries": 500
+    },
+    {
+      "label": 53,
+      "subset_size": 1763,
+      "k_used": 100,
+      "mean_lid": 16.74919800376892,
+      "std_lid": 6.052615767564355,
+      "n_queries": 500
+    },
+    {
+      "label": 183,
+      "subset_size": 1606,
+      "k_used": 100,
+      "mean_lid": 16.59029091358185,
+      "std_lid": 5.967439722949844,
+      "n_queries": 500
+    },
+    {
+      "label": 27,
+      "subset_size": 1567,
+      "k_used": 100,
+      "mean_lid": 15.797553754806518,
+      "std_lid": 5.376814008601953,
+      "n_queries": 500
+    },
+    {
+      "label": 190,
+      "subset_size": 1567,
+      "k_used": 100,
+      "mean_lid": 10.984239839553833,
+      "std_lid": 6.790265421669879,
+      "n_queries": 500
+    },
+    {
+      "label": 122,
+      "subset_size": 1517,
+      "k_used": 100,
+      "mean_lid": 13.61012828373909,
+      "std_lid": 7.156915821164456,
+      "n_queries": 500
+    },
+    {
+      "label": 150,
+      "subset_size": 1514,
+      "k_used": 100,
+      "mean_lid": 17.240486256599425,
+      "std_lid": 5.894001724234988,
+      "n_queries": 500
+    },
+    {
+      "label": 147,
+      "subset_size": 1426,
+      "k_used": 100,
+      "mean_lid": 18.100893215179443,
+      "std_lid": 5.764479164467553,
+      "n_queries": 500
+    },
+    {
+      "label": 67,
+      "subset_size": 1364,
+      "k_used": 100,
+      "mean_lid": 19.300426962852477,
+      "std_lid": 5.656092174329547,
+      "n_queries": 500
+    },
+    {
+      "label": 114,
+      "subset_size": 1355,
+      "k_used": 100,
+      "mean_lid": 13.920794342041015,
+      "std_lid": 6.9146227786041905,
+      "n_queries": 500
+    },
+    {
+      "label": 157,
+      "subset_size": 1336,
+      "k_used": 100,
+      "mean_lid": 14.299568946838379,
+      "std_lid": 5.4979306811286115,
+      "n_queries": 500
+    },
+    {
+      "label": 119,
+      "subset_size": 1316,
+      "k_used": 100,
+      "mean_lid": 14.432585081100465,
+      "std_lid": 6.7654654714028375,
+      "n_queries": 500
+    },
+    {
+      "label": 171,
+      "subset_size": 1292,
+      "k_used": 100,
+      "mean_lid": 18.815535794258118,
+      "std_lid": 5.6889519255581185,
+      "n_queries": 500
+    },
+    {
+      "label": 175,
+      "subset_size": 1275,
+      "k_used": 100,
+      "mean_lid": 12.856186650514603,
+      "std_lid": 6.471726110759851,
+      "n_queries": 500
+    },
+    {
+      "label": 191,
+      "subset_size": 1273,
+      "k_used": 100,
+      "mean_lid": 12.206837589263916,
+      "std_lid": 6.720330371328211,
+      "n_queries": 500
+    },
+    {
+      "label": 48,
+      "subset_size": 1234,
+      "k_used": 100,
+      "mean_lid": 17.915704031944276,
+      "std_lid": 5.887106441375779,
+      "n_queries": 500
+    },
+    {
+      "label": 55,
+      "subset_size": 1213,
+      "k_used": 100,
+      "mean_lid": 18.39024343729019,
+      "std_lid": 6.231492528851909,
+      "n_queries": 500
+    },
+    {
+      "label": 120,
+      "subset_size": 1208,
+      "k_used": 100,
+      "mean_lid": 15.33894086933136,
+      "std_lid": 6.0515786374689835,
+      "n_queries": 500
+    },
+    {
+      "label": 117,
+      "subset_size": 1206,
+      "k_used": 100,
+      "mean_lid": 14.927885230541229,
+      "std_lid": 6.065482093078176,
+      "n_queries": 500
+    },
+    {
+      "label": 248,
+      "subset_size": 1204,
+      "k_used": 100,
+      "mean_lid": 17.426788808822632,
+      "std_lid": 5.918774475499826,
+      "n_queries": 500
+    },
+    {
+      "label": 125,
+      "subset_size": 1190,
+      "k_used": 100,
+      "mean_lid": 15.27989853143692,
+      "std_lid": 6.159032589370146,
+      "n_queries": 500
+    },
+    {
+      "label": 176,
+      "subset_size": 1169,
+      "k_used": 100,
+      "mean_lid": 13.640163053512573,
+      "std_lid": 5.723875287443205,
+      "n_queries": 500
+    },
+    {
+      "label": 75,
+      "subset_size": 1089,
+      "k_used": 100,
+      "mean_lid": 18.1068576669693,
+      "std_lid": 5.179683910213567,
+      "n_queries": 500
+    },
+    {
+      "label": 163,
+      "subset_size": 1074,
+      "k_used": 100,
+      "mean_lid": 12.2540234041214,
+      "std_lid": 5.960628343584068,
+      "n_queries": 500
+    },
+    {
+      "label": 178,
+      "subset_size": 1071,
+      "k_used": 100,
+      "mean_lid": 16.301798029899597,
+      "std_lid": 4.80259436867153,
+      "n_queries": 500
+    },
+    {
+      "label": 177,
+      "subset_size": 1062,
+      "k_used": 100,
+      "mean_lid": 14.353374650716782,
+      "std_lid": 5.75743789838802,
+      "n_queries": 500
+    },
+    {
+      "label": 60,
+      "subset_size": 1061,
+      "k_used": 100,
+      "mean_lid": 17.889496946811676,
+      "std_lid": 5.5324973182847685,
+      "n_queries": 500
+    },
+    {
+      "label": 192,
+      "subset_size": 1047,
+      "k_used": 100,
+      "mean_lid": 12.764375702381134,
+      "std_lid": 5.664710106880269,
+      "n_queries": 500
+    },
+    {
+      "label": 158,
+      "subset_size": 1002,
+      "k_used": 100,
+      "mean_lid": 14.65874791955948,
+      "std_lid": 5.648991973421962,
+      "n_queries": 500
+    },
+    {
+      "label": 216,
+      "subset_size": 992,
+      "k_used": 100,
+      "mean_lid": 15.661251310348511,
+      "std_lid": 5.144498850736057,
+      "n_queries": 500
+    },
+    {
+      "label": 185,
+      "subset_size": 982,
+      "k_used": 100,
+      "mean_lid": 17.59048167037964,
+      "std_lid": 5.284059269105477,
+      "n_queries": 500
+    },
+    {
+      "label": 266,
+      "subset_size": 982,
+      "k_used": 100,
+      "mean_lid": 15.500261343955994,
+      "std_lid": 4.834920966236312,
+      "n_queries": 500
+    },
+    {
+      "label": 63,
+      "subset_size": 976,
+      "k_used": 100,
+      "mean_lid": 14.595405588150024,
+      "std_lid": 4.9551472275178865,
+      "n_queries": 500
+    },
+    {
+      "label": 179,
+      "subset_size": 974,
+      "k_used": 100,
+      "mean_lid": 16.82637354135513,
+      "std_lid": 6.054762648357087,
+      "n_queries": 500
+    },
+    {
+      "label": 269,
+      "subset_size": 961,
+      "k_used": 100,
+      "mean_lid": 15.791485407829285,
+      "std_lid": 5.735490047067737,
+      "n_queries": 500
+    },
+    {
+      "label": 153,
+      "subset_size": 949,
+      "k_used": 100,
+      "mean_lid": 15.362164046287537,
+      "std_lid": 5.726396872550483,
+      "n_queries": 500
+    },
+    {
+      "label": 152,
+      "subset_size": 948,
+      "k_used": 100,
+      "mean_lid": 15.755665442466736,
+      "std_lid": 5.655808847679326,
+      "n_queries": 500
+    },
+    {
+      "label": 98,
+      "subset_size": 924,
+      "k_used": 100,
+      "mean_lid": 17.714116707801818,
+      "std_lid": 5.004680481047819,
+      "n_queries": 500
+    },
+    {
+      "label": 195,
+      "subset_size": 890,
+      "k_used": 100,
+      "mean_lid": 16.518748087882997,
+      "std_lid": 5.062042866942556,
+      "n_queries": 500
+    },
+    {
+      "label": 237,
+      "subset_size": 864,
+      "k_used": 100,
+      "mean_lid": 16.352754413604735,
+      "std_lid": 5.4080531175680955,
+      "n_queries": 500
+    },
+    {
+      "label": 236,
+      "subset_size": 859,
+      "k_used": 100,
+      "mean_lid": 14.068925362110138,
+      "std_lid": 6.444396885113431,
+      "n_queries": 500
+    },
+    {
+      "label": 159,
+      "subset_size": 856,
+      "k_used": 100,
+      "mean_lid": 17.74315611410141,
+      "std_lid": 4.7930822122017736,
+      "n_queries": 500
+    },
+    {
+      "label": 155,
+      "subset_size": 848,
+      "k_used": 100,
+      "mean_lid": 16.42724617099762,
+      "std_lid": 4.775130319361273,
+      "n_queries": 500
+    },
+    {
+      "label": 92,
+      "subset_size": 841,
+      "k_used": 100,
+      "mean_lid": 14.458753697395325,
+      "std_lid": 5.262940451129978,
+      "n_queries": 500
+    },
+    {
+      "label": 189,
+      "subset_size": 841,
+      "k_used": 100,
+      "mean_lid": 13.276332277297973,
+      "std_lid": 5.455686965183276,
+      "n_queries": 500
+    },
+    {
+      "label": 193,
+      "subset_size": 834,
+      "k_used": 100,
+      "mean_lid": 13.131059871673584,
+      "std_lid": 5.388053829033539,
+      "n_queries": 500
+    },
+    {
+      "label": 38,
+      "subset_size": 833,
+      "k_used": 100,
+      "mean_lid": 16.30781313610077,
+      "std_lid": 4.46406640450195,
+      "n_queries": 500
+    },
+    {
+      "label": 129,
+      "subset_size": 832,
+      "k_used": 100,
+      "mean_lid": 16.89021814441681,
+      "std_lid": 4.225176241666278,
+      "n_queries": 500
+    },
+    {
+      "label": 488,
+      "subset_size": 829,
+      "k_used": 100,
+      "mean_lid": 14.850028882026672,
+      "std_lid": 4.808226587014901,
+      "n_queries": 500
+    },
+    {
+      "label": 49,
+      "subset_size": 782,
+      "k_used": 100,
+      "mean_lid": 15.587138482093811,
+      "std_lid": 5.096503762447379,
+      "n_queries": 500
+    },
+    {
+      "label": 108,
+      "subset_size": 769,
+      "k_used": 100,
+      "mean_lid": 17.154420351982118,
+      "std_lid": 5.404533143161526,
+      "n_queries": 500
+    },
+    {
+      "label": 82,
+      "subset_size": 751,
+      "k_used": 100,
+      "mean_lid": 16.008438168525696,
+      "std_lid": 4.717308297542204,
+      "n_queries": 500
+    },
+    {
+      "label": 144,
+      "subset_size": 741,
+      "k_used": 100,
+      "mean_lid": 14.679585314750671,
+      "std_lid": 4.317390735214481,
+      "n_queries": 500
+    },
+    {
+      "label": 72,
+      "subset_size": 737,
+      "k_used": 100,
+      "mean_lid": 14.649872136116027,
+      "std_lid": 4.555942030481227,
+      "n_queries": 500
+    },
+    {
+      "label": 43,
+      "subset_size": 719,
+      "k_used": 100,
+      "mean_lid": 15.737037312030791,
+      "std_lid": 5.228804223697016,
+      "n_queries": 500
+    },
+    {
+      "label": 270,
+      "subset_size": 708,
+      "k_used": 100,
+      "mean_lid": 15.54661386346817,
+      "std_lid": 5.173376216482944,
+      "n_queries": 500
+    },
+    {
+      "label": 307,
+      "subset_size": 661,
+      "k_used": 100,
+      "mean_lid": 15.456654753684997,
+      "std_lid": 4.560049546713008,
+      "n_queries": 500
+    },
+    {
+      "label": 134,
+      "subset_size": 635,
+      "k_used": 100,
+      "mean_lid": 16.799591588974,
+      "std_lid": 4.052296534052149,
+      "n_queries": 500
+    },
+    {
+      "label": 203,
+      "subset_size": 621,
+      "k_used": 100,
+      "mean_lid": 15.50859653377533,
+      "std_lid": 4.36297716934149,
+      "n_queries": 500
+    },
+    {
+      "label": 407,
+      "subset_size": 613,
+      "k_used": 100,
+      "mean_lid": 14.80113262462616,
+      "std_lid": 4.783253270575835,
+      "n_queries": 500
+    },
+    {
+      "label": 94,
+      "subset_size": 612,
+      "k_used": 100,
+      "mean_lid": 14.522417142868042,
+      "std_lid": 4.4116259562040385,
+      "n_queries": 500
+    },
+    {
+      "label": 370,
+      "subset_size": 581,
+      "k_used": 100,
+      "mean_lid": 16.942958327293397,
+      "std_lid": 4.1211810349575995,
+      "n_queries": 500
+    },
+    {
+      "label": 198,
+      "subset_size": 576,
+      "k_used": 100,
+      "mean_lid": 14.693976280212402,
+      "std_lid": 4.663334834253232,
+      "n_queries": 500
+    },
+    {
+      "label": 296,
+      "subset_size": 566,
+      "k_used": 100,
+      "mean_lid": 15.71085716199875,
+      "std_lid": 4.498819584597168,
+      "n_queries": 500
+    },
+    {
+      "label": 420,
+      "subset_size": 566,
+      "k_used": 100,
+      "mean_lid": 14.940044068336487,
+      "std_lid": 4.719945188669851,
+      "n_queries": 500
+    },
+    {
+      "label": 111,
+      "subset_size": 564,
+      "k_used": 100,
+      "mean_lid": 15.055483061790467,
+      "std_lid": 4.541043628343301,
+      "n_queries": 500
+    },
+    {
+      "label": 204,
+      "subset_size": 555,
+      "k_used": 100,
+      "mean_lid": 14.620030574798584,
+      "std_lid": 4.616105842448634,
+      "n_queries": 500
+    },
+    {
+      "label": 214,
+      "subset_size": 548,
+      "k_used": 100,
+      "mean_lid": 13.254411226272582,
+      "std_lid": 4.300382558945284,
+      "n_queries": 500
+    },
+    {
+      "label": 329,
+      "subset_size": 545,
+      "k_used": 100,
+      "mean_lid": 11.672353557109833,
+      "std_lid": 4.568211081458219,
+      "n_queries": 500
+    },
+    {
+      "label": 42,
+      "subset_size": 544,
+      "k_used": 100,
+      "mean_lid": 14.226152641296387,
+      "std_lid": 4.5791902814625285,
+      "n_queries": 500
+    },
+    {
+      "label": 206,
+      "subset_size": 535,
+      "k_used": 100,
+      "mean_lid": 15.314806758880616,
+      "std_lid": 5.1001613025949135,
+      "n_queries": 500
+    },
+    {
+      "label": 91,
+      "subset_size": 530,
+      "k_used": 100,
+      "mean_lid": 15.080839477539062,
+      "std_lid": 4.04545899776174,
+      "n_queries": 500
+    },
+    {
+      "label": 146,
+      "subset_size": 526,
+      "k_used": 100,
+      "mean_lid": 14.108124114990234,
+      "std_lid": 5.427177842575337,
+      "n_queries": 500
+    },
+    {
+      "label": 379,
+      "subset_size": 525,
+      "k_used": 100,
+      "mean_lid": 13.47681535100937,
+      "std_lid": 4.792579611537858,
+      "n_queries": 500
+    },
+    {
+      "label": 62,
+      "subset_size": 519,
+      "k_used": 100,
+      "mean_lid": 12.923986776351928,
+      "std_lid": 4.459032062982487,
+      "n_queries": 500
+    },
+    {
+      "label": 105,
+      "subset_size": 518,
+      "k_used": 100,
+      "mean_lid": 12.907394815444947,
+      "std_lid": 3.8618583378572593,
+      "n_queries": 500
+    },
+    {
+      "label": 18,
+      "subset_size": 513,
+      "k_used": 100,
+      "mean_lid": 14.979425139427185,
+      "std_lid": 3.34683826215127,
+      "n_queries": 500
+    },
+    {
+      "label": 220,
+      "subset_size": 505,
+      "k_used": 100,
+      "mean_lid": 13.983514662742614,
+      "std_lid": 3.6917608276777822,
+      "n_queries": 500
+    },
+    {
+      "label": 545,
+      "subset_size": 503,
+      "k_used": 100,
+      "mean_lid": 15.208000818252563,
+      "std_lid": 3.7000880120614195,
+      "n_queries": 500
+    },
+    {
+      "label": 64,
+      "subset_size": 494,
+      "k_used": 98,
+      "mean_lid": 16.074271930856742,
+      "std_lid": 4.447746969777682,
+      "n_queries": 494
+    },
+    {
+      "label": 294,
+      "subset_size": 493,
+      "k_used": 98,
+      "mean_lid": 15.551878158267565,
+      "std_lid": 3.877102505528148,
+      "n_queries": 493
+    },
+    {
+      "label": 318,
+      "subset_size": 491,
+      "k_used": 98,
+      "mean_lid": 14.612006125285038,
+      "std_lid": 3.4708142049204294,
+      "n_queries": 491
+    },
+    {
+      "label": 89,
+      "subset_size": 481,
+      "k_used": 96,
+      "mean_lid": 13.473742716029875,
+      "std_lid": 4.003066418275891,
+      "n_queries": 481
+    },
+    {
+      "label": 374,
+      "subset_size": 469,
+      "k_used": 93,
+      "mean_lid": 12.12982415542928,
+      "std_lid": 3.922648526089863,
+      "n_queries": 469
+    },
+    {
+      "label": 287,
+      "subset_size": 464,
+      "k_used": 92,
+      "mean_lid": 12.920551471669098,
+      "std_lid": 4.06007519426891,
+      "n_queries": 464
+    },
+    {
+      "label": 288,
+      "subset_size": 464,
+      "k_used": 92,
+      "mean_lid": 13.962740550267286,
+      "std_lid": 4.312340292979529,
+      "n_queries": 464
+    },
+    {
+      "label": 104,
+      "subset_size": 461,
+      "k_used": 92,
+      "mean_lid": 14.969447632415175,
+      "std_lid": 3.885818390259508,
+      "n_queries": 461
+    },
+    {
+      "label": 623,
+      "subset_size": 461,
+      "k_used": 92,
+      "mean_lid": 13.841080118415155,
+      "std_lid": 4.518308916466255,
+      "n_queries": 461
+    },
+    {
+      "label": 211,
+      "subset_size": 453,
+      "k_used": 90,
+      "mean_lid": 11.853603292511526,
+      "std_lid": 5.0945930236008525,
+      "n_queries": 453
+    },
+    {
+      "label": 202,
+      "subset_size": 443,
+      "k_used": 88,
+      "mean_lid": 16.82245623285022,
+      "std_lid": 4.216939835052585,
+      "n_queries": 443
+    },
+    {
+      "label": 413,
+      "subset_size": 428,
+      "k_used": 85,
+      "mean_lid": 15.019284655000561,
+      "std_lid": 4.648010263103689,
+      "n_queries": 428
+    },
+    {
+      "label": 435,
+      "subset_size": 427,
+      "k_used": 85,
+      "mean_lid": 13.516941850023471,
+      "std_lid": 4.054784143178286,
+      "n_queries": 427
+    },
+    {
+      "label": 31,
+      "subset_size": 425,
+      "k_used": 85,
+      "mean_lid": 14.675309162139893,
+      "std_lid": 3.9882769351801555,
+      "n_queries": 425
+    },
+    {
+      "label": 261,
+      "subset_size": 422,
+      "k_used": 84,
+      "mean_lid": 14.194038967385676,
+      "std_lid": 3.868290122187236,
+      "n_queries": 422
+    },
+    {
+      "label": 302,
+      "subset_size": 421,
+      "k_used": 84,
+      "mean_lid": 12.296849843158858,
+      "std_lid": 3.9733842174280607,
+      "n_queries": 421
+    },
+    {
+      "label": 441,
+      "subset_size": 417,
+      "k_used": 83,
+      "mean_lid": 14.973610262790745,
+      "std_lid": 4.095196546759028,
+      "n_queries": 417
+    },
+    {
+      "label": 212,
+      "subset_size": 412,
+      "k_used": 82,
+      "mean_lid": 14.755991587361086,
+      "std_lid": 3.7863331524890094,
+      "n_queries": 412
+    },
+    {
+      "label": 205,
+      "subset_size": 409,
+      "k_used": 81,
+      "mean_lid": 12.738637448523038,
+      "std_lid": 4.413891184145987,
+      "n_queries": 409
+    },
+    {
+      "label": 253,
+      "subset_size": 407,
+      "k_used": 81,
+      "mean_lid": 14.849473986051592,
+      "std_lid": 4.363612304226818,
+      "n_queries": 407
+    },
+    {
+      "label": 293,
+      "subset_size": 407,
+      "k_used": 81,
+      "mean_lid": 14.74650137898963,
+      "std_lid": 3.669423150820532,
+      "n_queries": 407
+    },
+    {
+      "label": 100,
+      "subset_size": 401,
+      "k_used": 80,
+      "mean_lid": 11.665018694061889,
+      "std_lid": 4.628501675824595,
+      "n_queries": 401
+    },
+    {
+      "label": 228,
+      "subset_size": 398,
+      "k_used": 79,
+      "mean_lid": 8.328683621919335,
+      "std_lid": 4.643006916297103,
+      "n_queries": 398
+    },
+    {
+      "label": 90,
+      "subset_size": 397,
+      "k_used": 79,
+      "mean_lid": 14.743273366308332,
+      "std_lid": 3.9370654768539874,
+      "n_queries": 397
+    },
+    {
+      "label": 139,
+      "subset_size": 385,
+      "k_used": 77,
+      "mean_lid": 14.727839741149506,
+      "std_lid": 4.20694984391688,
+      "n_queries": 385
+    },
+    {
+      "label": 170,
+      "subset_size": 384,
+      "k_used": 76,
+      "mean_lid": 14.222897496074438,
+      "std_lid": 3.847744676090915,
+      "n_queries": 384
+    },
+    {
+      "label": 172,
+      "subset_size": 381,
+      "k_used": 76,
+      "mean_lid": 11.765163520502606,
+      "std_lid": 4.430374888521011,
+      "n_queries": 381
+    },
+    {
+      "label": 606,
+      "subset_size": 380,
+      "k_used": 76,
+      "mean_lid": 11.472020021237824,
+      "std_lid": 4.593057752601402,
+      "n_queries": 380
+    },
+    {
+      "label": 50,
+      "subset_size": 377,
+      "k_used": 75,
+      "mean_lid": 13.709028690500032,
+      "std_lid": 4.2127246740182365,
+      "n_queries": 377
+    },
+    {
+      "label": 54,
+      "subset_size": 371,
+      "k_used": 74,
+      "mean_lid": 14.886156636107,
+      "std_lid": 4.117791860469266,
+      "n_queries": 371
+    },
+    {
+      "label": 109,
+      "subset_size": 364,
+      "k_used": 72,
+      "mean_lid": 14.055351984369885,
+      "std_lid": 4.730604300604516,
+      "n_queries": 364
+    },
+    {
+      "label": 827,
+      "subset_size": 361,
+      "k_used": 72,
+      "mean_lid": 11.952423577823797,
+      "std_lid": 4.108173347209553,
+      "n_queries": 361
+    },
+    {
+      "label": 260,
+      "subset_size": 355,
+      "k_used": 71,
+      "mean_lid": 12.788140765042373,
+      "std_lid": 4.384446191863051,
+      "n_queries": 355
+    },
+    {
+      "label": 209,
+      "subset_size": 353,
+      "k_used": 70,
+      "mean_lid": 16.590258722602478,
+      "std_lid": 4.066811311295082,
+      "n_queries": 353
+    },
+    {
+      "label": 309,
+      "subset_size": 349,
+      "k_used": 69,
+      "mean_lid": 12.071666180575132,
+      "std_lid": 4.114533938057142,
+      "n_queries": 349
+    },
+    {
+      "label": 165,
+      "subset_size": 347,
+      "k_used": 69,
+      "mean_lid": 7.656245816681502,
+      "std_lid": 4.702993403158915,
+      "n_queries": 347
+    },
+    {
+      "label": 40,
+      "subset_size": 330,
+      "k_used": 66,
+      "mean_lid": 15.102833942933517,
+      "std_lid": 4.172090929821245,
+      "n_queries": 330
+    },
+    {
+      "label": 169,
+      "subset_size": 328,
+      "k_used": 65,
+      "mean_lid": 14.27977308849009,
+      "std_lid": 3.8714524871298,
+      "n_queries": 328
+    },
+    {
+      "label": 227,
+      "subset_size": 327,
+      "k_used": 65,
+      "mean_lid": 11.919020469035578,
+      "std_lid": 4.664754260825929,
+      "n_queries": 327
+    },
+    {
+      "label": 61,
+      "subset_size": 320,
+      "k_used": 64,
+      "mean_lid": 13.00854050964117,
+      "std_lid": 4.495323478056498,
+      "n_queries": 320
+    },
+    {
+      "label": 339,
+      "subset_size": 319,
+      "k_used": 63,
+      "mean_lid": 14.486617746024296,
+      "std_lid": 4.61593631850489,
+      "n_queries": 319
+    },
+    {
+      "label": 305,
+      "subset_size": 314,
+      "k_used": 62,
+      "mean_lid": 13.03771918974105,
+      "std_lid": 4.9481464319323365,
+      "n_queries": 314
+    },
+    {
+      "label": 608,
+      "subset_size": 307,
+      "k_used": 61,
+      "mean_lid": 13.565408627451049,
+      "std_lid": 3.8776592173638016,
+      "n_queries": 307
+    },
+    {
+      "label": 36,
+      "subset_size": 302,
+      "k_used": 60,
+      "mean_lid": 12.295554563699179,
+      "std_lid": 4.0238258646204255,
+      "n_queries": 302
+    },
+    {
+      "label": 132,
+      "subset_size": 301,
+      "k_used": 60,
+      "mean_lid": 14.32498331164997,
+      "std_lid": 4.691097205045394,
+      "n_queries": 301
+    },
+    {
+      "label": 102,
+      "subset_size": 297,
+      "k_used": 59,
+      "mean_lid": 13.935075051856764,
+      "std_lid": 4.665282966148625,
+      "n_queries": 297
+    },
+    {
+      "label": 240,
+      "subset_size": 292,
+      "k_used": 58,
+      "mean_lid": 6.472484363676751,
+      "std_lid": 4.314023187692872,
+      "n_queries": 292
+    },
+    {
+      "label": 396,
+      "subset_size": 290,
+      "k_used": 58,
+      "mean_lid": 12.700016519941133,
+      "std_lid": 4.472339378432277,
+      "n_queries": 290
+    },
+    {
+      "label": 57,
+      "subset_size": 286,
+      "k_used": 57,
+      "mean_lid": 14.5931050477328,
+      "std_lid": 4.757654796693745,
+      "n_queries": 286
+    },
+    {
+      "label": 239,
+      "subset_size": 286,
+      "k_used": 57,
+      "mean_lid": 6.771182973068077,
+      "std_lid": 4.485780920658666,
+      "n_queries": 286
+    },
+    {
+      "label": 52,
+      "subset_size": 284,
+      "k_used": 56,
+      "mean_lid": 13.58841484365329,
+      "std_lid": 5.298262600317644,
+      "n_queries": 284
+    },
+    {
+      "label": 276,
+      "subset_size": 276,
+      "k_used": 55,
+      "mean_lid": 10.095703513725944,
+      "std_lid": 4.367106060681378,
+      "n_queries": 276
+    },
+    {
+      "label": 272,
+      "subset_size": 275,
+      "k_used": 55,
+      "mean_lid": 13.007539249766957,
+      "std_lid": 4.407348128228989,
+      "n_queries": 275
+    },
+    {
+      "label": 353,
+      "subset_size": 272,
+      "k_used": 54,
+      "mean_lid": 15.927475732915541,
+      "std_lid": 3.8472714337384724,
+      "n_queries": 272
+    },
+    {
+      "label": 275,
+      "subset_size": 271,
+      "k_used": 54,
+      "mean_lid": 15.38898129656746,
+      "std_lid": 5.084936220983423,
+      "n_queries": 271
+    },
+    {
+      "label": 30,
+      "subset_size": 258,
+      "k_used": 51,
+      "mean_lid": 15.488386052523472,
+      "std_lid": 4.996620688208876,
+      "n_queries": 258
+    },
+    {
+      "label": 229,
+      "subset_size": 258,
+      "k_used": 51,
+      "mean_lid": 10.498636851477068,
+      "std_lid": 5.708744240843605,
+      "n_queries": 258
+    },
+    {
+      "label": 739,
+      "subset_size": 255,
+      "k_used": 51,
+      "mean_lid": 15.060315227508545,
+      "std_lid": 4.444921475764571,
+      "n_queries": 255
+    },
+    {
+      "label": 184,
+      "subset_size": 254,
+      "k_used": 50,
+      "mean_lid": 15.044374867687075,
+      "std_lid": 4.240221088533513,
+      "n_queries": 254
+    },
+    {
+      "label": 263,
+      "subset_size": 254,
+      "k_used": 50,
+      "mean_lid": 14.314059557877188,
+      "std_lid": 4.949165863303813,
+      "n_queries": 254
+    },
+    {
+      "label": 241,
+      "subset_size": 252,
+      "k_used": 50,
+      "mean_lid": 7.437634849359119,
+      "std_lid": 4.469347144217272,
+      "n_queries": 252
+    },
+    {
+      "label": 135,
+      "subset_size": 251,
+      "k_used": 50,
+      "mean_lid": 14.118572945613785,
+      "std_lid": 5.096065257374648,
+      "n_queries": 251
+    },
+    {
+      "label": 250,
+      "subset_size": 251,
+      "k_used": 50,
+      "mean_lid": 13.171044836006317,
+      "std_lid": 5.032251229237766,
+      "n_queries": 251
+    },
+    {
+      "label": 641,
+      "subset_size": 250,
+      "k_used": 50,
+      "mean_lid": 14.14265288066864,
+      "std_lid": 5.2284399805434525,
+      "n_queries": 250
+    },
+    {
+      "label": 145,
+      "subset_size": 249,
+      "k_used": 49,
+      "mean_lid": 14.901258347982383,
+      "std_lid": 4.654330059707518,
+      "n_queries": 249
+    },
+    {
+      "label": 516,
+      "subset_size": 249,
+      "k_used": 49,
+      "mean_lid": 10.988876156060092,
+      "std_lid": 5.16925470555327,
+      "n_queries": 249
+    },
+    {
+      "label": 577,
+      "subset_size": 249,
+      "k_used": 49,
+      "mean_lid": 8.502029477353076,
+      "std_lid": 4.1856391148946805,
+      "n_queries": 249
+    },
+    {
+      "label": 84,
+      "subset_size": 246,
+      "k_used": 49,
+      "mean_lid": 12.731938133394815,
+      "std_lid": 5.059531066797344,
+      "n_queries": 246
+    },
+    {
+      "label": 324,
+      "subset_size": 246,
+      "k_used": 49,
+      "mean_lid": 16.099036743970423,
+      "std_lid": 4.799720015416083,
+      "n_queries": 246
+    },
+    {
+      "label": 702,
+      "subset_size": 245,
+      "k_used": 49,
+      "mean_lid": 13.215424671951606,
+      "std_lid": 3.855029564681065,
+      "n_queries": 245
+    },
+    {
+      "label": 843,
+      "subset_size": 242,
+      "k_used": 48,
+      "mean_lid": 9.71045816338752,
+      "std_lid": 4.34176403418884,
+      "n_queries": 242
+    },
+    {
+      "label": 385,
+      "subset_size": 239,
+      "k_used": 47,
+      "mean_lid": 14.759953925799126,
+      "std_lid": 4.792985944104939,
+      "n_queries": 239
+    },
+    {
+      "label": 39,
+      "subset_size": 238,
+      "k_used": 47,
+      "mean_lid": 14.06528640594803,
+      "std_lid": 4.08632662421262,
+      "n_queries": 238
+    },
+    {
+      "label": 277,
+      "subset_size": 238,
+      "k_used": 47,
+      "mean_lid": 9.5975158605255,
+      "std_lid": 4.379790906304533,
+      "n_queries": 238
+    },
+    {
+      "label": 78,
+      "subset_size": 237,
+      "k_used": 47,
+      "mean_lid": 15.861202879797053,
+      "std_lid": 3.9802061572849916,
+      "n_queries": 237
+    },
+    {
+      "label": 142,
+      "subset_size": 236,
+      "k_used": 47,
+      "mean_lid": 13.885098669488551,
+      "std_lid": 4.762812377782559,
+      "n_queries": 236
+    },
+    {
+      "label": 611,
+      "subset_size": 234,
+      "k_used": 46,
+      "mean_lid": 14.128892843539898,
+      "std_lid": 8.357395578206663,
+      "n_queries": 234
+    },
+    {
+      "label": 245,
+      "subset_size": 232,
+      "k_used": 46,
+      "mean_lid": 15.993059022673245,
+      "std_lid": 7.372725249621407,
+      "n_queries": 232
+    },
+    {
+      "label": 770,
+      "subset_size": 230,
+      "k_used": 46,
+      "mean_lid": 15.775781940377277,
+      "std_lid": 5.031793061488336,
+      "n_queries": 230
+    },
+    {
+      "label": 133,
+      "subset_size": 229,
+      "k_used": 45,
+      "mean_lid": 16.370667724109634,
+      "std_lid": 4.917623630762121,
+      "n_queries": 229
+    },
+    {
+      "label": 279,
+      "subset_size": 228,
+      "k_used": 45,
+      "mean_lid": 14.496773213670965,
+      "std_lid": 4.460015924649467,
+      "n_queries": 228
+    },
+    {
+      "label": 911,
+      "subset_size": 226,
+      "k_used": 45,
+      "mean_lid": 9.931801065406969,
+      "std_lid": 5.484509819292175,
+      "n_queries": 226
+    },
+    {
+      "label": 382,
+      "subset_size": 224,
+      "k_used": 44,
+      "mean_lid": 13.342573076486588,
+      "std_lid": 5.463372639283024,
+      "n_queries": 224
+    },
+    {
+      "label": 299,
+      "subset_size": 221,
+      "k_used": 44,
+      "mean_lid": 10.4912312710447,
+      "std_lid": 5.024728929224883,
+      "n_queries": 221
+    },
+    {
+      "label": 278,
+      "subset_size": 218,
+      "k_used": 43,
+      "mean_lid": 10.0653254876443,
+      "std_lid": 4.715000166729603,
+      "n_queries": 218
+    },
+    {
+      "label": 479,
+      "subset_size": 217,
+      "k_used": 43,
+      "mean_lid": 13.345461710257464,
+      "std_lid": 4.616113360040882,
+      "n_queries": 217
+    },
+    {
+      "label": 555,
+      "subset_size": 216,
+      "k_used": 43,
+      "mean_lid": 13.421504415847638,
+      "std_lid": 4.1620256130182405,
+      "n_queries": 216
+    },
+    {
+      "label": 282,
+      "subset_size": 215,
+      "k_used": 43,
+      "mean_lid": 13.467307643003242,
+      "std_lid": 4.539031297575096,
+      "n_queries": 215
+    },
+    {
+      "label": 755,
+      "subset_size": 215,
+      "k_used": 43,
+      "mean_lid": 13.732740750423698,
+      "std_lid": 4.189303959267424,
+      "n_queries": 215
+    },
+    {
+      "label": 344,
+      "subset_size": 214,
+      "k_used": 42,
+      "mean_lid": 12.264861068992971,
+      "std_lid": 4.803681519679143,
+      "n_queries": 214
+    },
+    {
+      "label": 325,
+      "subset_size": 213,
+      "k_used": 42,
+      "mean_lid": 11.516198423546804,
+      "std_lid": 4.444951121832926,
+      "n_queries": 213
+    },
+    {
+      "label": 51,
+      "subset_size": 208,
+      "k_used": 41,
+      "mean_lid": 14.283256859733509,
+      "std_lid": 5.4321611328509345,
+      "n_queries": 208
+    },
+    {
+      "label": 71,
+      "subset_size": 206,
+      "k_used": 41,
+      "mean_lid": 14.338447941159739,
+      "std_lid": 5.3653522671158616,
+      "n_queries": 206
+    },
+    {
+      "label": 369,
+      "subset_size": 206,
+      "k_used": 41,
+      "mean_lid": 12.561137425668031,
+      "std_lid": 6.807960192289921,
+      "n_queries": 206
+    },
+    {
+      "label": 340,
+      "subset_size": 204,
+      "k_used": 40,
+      "mean_lid": 14.292583533361846,
+      "std_lid": 5.660303189064468,
+      "n_queries": 204
+    },
+    {
+      "label": 458,
+      "subset_size": 204,
+      "k_used": 40,
+      "mean_lid": 14.361621625283185,
+      "std_lid": 5.38865937382843,
+      "n_queries": 204
+    },
+    {
+      "label": 246,
+      "subset_size": 203,
+      "k_used": 40,
+      "mean_lid": 14.814292226518903,
+      "std_lid": 4.4193120559301216,
+      "n_queries": 203
+    },
+    {
+      "label": 707,
+      "subset_size": 203,
+      "k_used": 40,
+      "mean_lid": 12.526743597584993,
+      "std_lid": 5.746291705436152,
+      "n_queries": 203
+    },
+    {
+      "label": 546,
+      "subset_size": 201,
+      "k_used": 40,
+      "mean_lid": 11.333661413904446,
+      "std_lid": 4.846588622966185,
+      "n_queries": 201
+    },
+    {
+      "label": 745,
+      "subset_size": 201,
+      "k_used": 40,
+      "mean_lid": 10.78560955666784,
+      "std_lid": 5.437488312936479,
+      "n_queries": 201
+    },
+    {
+      "label": 81,
+      "subset_size": 200,
+      "k_used": 40,
+      "mean_lid": 13.954908678531647,
+      "std_lid": 5.540813599314322,
+      "n_queries": 200
+    },
+    {
+      "label": 267,
+      "subset_size": 200,
+      "k_used": 40,
+      "mean_lid": 17.19908968448639,
+      "std_lid": 4.531957974318502,
+      "n_queries": 200
+    },
+    {
+      "label": 417,
+      "subset_size": 200,
+      "k_used": 40,
+      "mean_lid": 14.970615260601043,
+      "std_lid": 5.064191948781259,
+      "n_queries": 200
+    }
+  ],
+  "summary": {
+    "mean_per_label_lid": 19.410335008021693,
+    "median_per_label_lid": 14.686780797481536,
+    "std_per_label_lid": 3.094299957956356,
+    "correlation_ratio": 0.7611896081577134,
+    "unweighted_mean_per_label_lid": 15.019763036154202
+  }
+}

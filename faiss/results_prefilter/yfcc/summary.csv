@@ -1,0 +1,4 @@
+dataset,scenario,method,qps,recall@10,avg_candidates,filter_time,search_time,status,timestamp
+yfcc,and,prefilter_bruteforce,265.028,0.9991,4577.66,3.59514,0.154485,success,2026-01-06T02:22:30.833231
+yfcc,or,prefilter_bruteforce,49.6959,0.9993,321121.0,12.7369,7.24522,success,2026-01-06T02:22:52.781120
+yfcc,equal,prefilter_bruteforce,938.691,1.0,763.688,1.03048,0.0277744,success,2026-01-06T02:22:55.606678

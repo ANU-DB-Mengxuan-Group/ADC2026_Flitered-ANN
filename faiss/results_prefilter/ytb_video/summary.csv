@@ -1,0 +1,6 @@
+dataset,scenario,method,qps,recall@10,avg_candidates,filter_time,search_time,status,timestamp
+ytb_video,and,prefilter_bruteforce,167.933,0.1425,18982.4,0.588883,0.461016,success,2026-01-06T02:25:13.526555
+ytb_video,or,prefilter_bruteforce,53.3971,1.0,83081.2,0.69836,2.93576,success,2026-01-06T02:25:20.177840
+ytb_video,equal,prefilter_bruteforce,423.894,1.0,6333.09,0.330401,0.127959,success,2026-01-06T02:25:23.556355
+ytb_video,and,prefilter_bruteforce,0,0,0,0,0,failed,2026-02-04T22:40:42.020412
+ytb_video,and,prefilter_bruteforce,169.525,1.0,18982.4,0.567348,0.481268,success,2026-02-04T23:14:46.418006

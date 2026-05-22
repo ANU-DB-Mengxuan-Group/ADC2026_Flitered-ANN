@@ -1,0 +1,2 @@
+method,config,single_qps,real_qps_16t,scaling,note
+ACORN,M=32_M_beta=64_gamma=4_ef=200,216.0073472929195,1361.98,6.305248488390859,

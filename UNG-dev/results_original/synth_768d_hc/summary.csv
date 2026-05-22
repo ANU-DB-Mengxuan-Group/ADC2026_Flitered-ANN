@@ -1,0 +1,4 @@
+dataset,scenario,max_degree,Lbuild,Lsearch,build_time_s,index_size_mb,recall@10,qps,status,timestamp
+synth_768d_hc,containment,96,200,500,158.8414969444275,2519.587110519409,0.06,16393.4,success,2026-04-02T11:07:42.805603
+synth_768d_hc,overlap,96,200,500,0,2519.587110519409,0.05,2118.64,success,2026-04-02T11:07:48.990374
+synth_768d_hc,equality,96,200,500,54.13172507286072,2479.988094329834,0.06,10416.7,success,2026-04-02T11:08:48.242678

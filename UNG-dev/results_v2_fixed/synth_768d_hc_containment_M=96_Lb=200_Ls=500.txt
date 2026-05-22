@@ -1,0 +1,12 @@
+Loading data from /home/remote/u7905817/benchmarks/datasets/discrete/synth_768d_hc/synth_768d_hc_query_and.bin and /home/remote/u7905817/benchmarks/datasets/discrete/synth_768d_hc/synth_768d_hc_query_and_1based.txt ...
+- Number of points: 1000
+- Dimension: 768
+- Number of labels: 468
+- Time: 4 ms
+------------------------------------------------------------
+Loading index from /home/remote/u7905817/benchmarks/discrete/UNG-dev/indices_v2_fixed/synth_768d_hc/general/index_M=96_L=200 ...
+- Index loaded in 5326 ms
+Ground truth loaded from /home/remote/u7905817/benchmarks/datasets/discrete/synth_768d_hc/synth_768d_hc_gt_and.bin
+Start querying ...
+- Lsearch=500, time=62ms
+- all done

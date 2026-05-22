@@ -1,0 +1,8 @@
+{
+  "completed": [
+    "synth_512d_and",
+    "synth_512d_or",
+    "synth_512d_equal"
+  ],
+  "failed": []
+}

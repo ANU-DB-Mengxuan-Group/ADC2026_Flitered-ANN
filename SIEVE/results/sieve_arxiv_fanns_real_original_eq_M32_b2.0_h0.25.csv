@@ -1,0 +1,13 @@
+dataset,scenario,M,ef_construction,index_budget,hist_pct,num_threads,ef_search,build_time_s,index_size_mb,search_time_s,qps,recall_at_10
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,10,50.67,3222.7,0.219,4566.5,0.593100
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,20,50.67,3222.7,0.240,4164.1,0.594000
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,30,50.67,3222.7,0.268,3730.7,0.593500
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,40,50.67,3222.7,0.302,3308.2,0.593400
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,50,50.67,3222.7,0.356,2807.0,0.593700
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,60,50.67,3222.7,0.415,2410.8,0.593800
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,70,50.67,3222.7,0.478,2090.4,0.593800
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,80,50.67,3222.7,0.544,1838.3,0.593700
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,90,50.67,3222.7,0.568,1761.5,0.593700
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,100,50.67,3222.7,0.595,1680.9,0.593700
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,150,50.67,3222.7,0.738,1355.2,0.593600
+arxiv_fanns_real,original_eq,32,40,2.0,0.25,16,200,50.67,3222.7,1.171,854.0,0.593800

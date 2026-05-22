@@ -1,0 +1,194 @@
+{
+  "experiment": "LODO",
+  "n_methods": 3,
+  "methods": [
+    "UNG",
+    "Post-filter",
+    "SIEVE"
+  ],
+  "oracle_recall": 0.9951287878787879,
+  "RuleRouter": {
+    "mean_accuracy": 0.6562222222222223,
+    "mean_recall": 0.9873712121212124,
+    "oracle_gap": 0.007757575757575519,
+    "per_dataset": {
+      "LAION1M": {
+        "acc": 0.6733333333333333,
+        "recall": 0.9987333333333333
+      },
+      "arxiv": {
+        "acc": 0.44,
+        "recall": 1.0
+      },
+      "tripclick": {
+        "acc": 0.675,
+        "recall": 0.9963666666666667
+      },
+      "yfcc": {
+        "acc": 0.6746666666666666,
+        "recall": 0.9988666666666668
+      },
+      "ytb_audio": {
+        "acc": 0.6893333333333334,
+        "recall": 0.9710666666666666
+      },
+      "ytb_video": {
+        "acc": 0.785,
+        "recall": 0.8970000000000001
+      }
+    }
+  },
+  "XGBoost": {
+    "mean_accuracy": 0.7720555555555556,
+    "mean_recall": 0.9654015151515151,
+    "oracle_gap": 0.029727272727272824,
+    "per_dataset": {
+      "LAION1M": {
+        "acc": 0.642,
+        "recall": 0.9992333333333333
+      },
+      "arxiv": {
+        "acc": 0.72,
+        "recall": 0.9925
+      },
+      "tripclick": {
+        "acc": 0.927,
+        "recall": 0.9918666666666668
+      },
+      "yfcc": {
+        "acc": 0.872,
+        "recall": 0.9750333333333333
+      },
+      "ytb_audio": {
+        "acc": 0.6946666666666667,
+        "recall": 0.9024666666666668
+      },
+      "ytb_video": {
+        "acc": 0.7766666666666666,
+        "recall": 0.9033333333333333
+      }
+    }
+  },
+  "RandomForest": {
+    "mean_accuracy": 0.8151666666666665,
+    "mean_recall": 0.9756969696969697,
+    "oracle_gap": 0.01943181818181816,
+    "per_dataset": {
+      "LAION1M": {
+        "acc": 0.7806666666666666,
+        "recall": 0.9988
+      },
+      "arxiv": {
+        "acc": 0.7166666666666667,
+        "recall": 0.9925
+      },
+      "tripclick": {
+        "acc": 0.927,
+        "recall": 0.9918333333333333
+      },
+      "yfcc": {
+        "acc": 0.888,
+        "recall": 0.9804333333333334
+      },
+      "ytb_audio": {
+        "acc": 0.7853333333333333,
+        "recall": 0.9433
+      },
+      "ytb_video": {
+        "acc": 0.7933333333333333,
+        "recall": 0.901
+      }
+    }
+  },
+  "MLP": {
+    "mean_accuracy": 0.7038333333333333,
+    "mean_recall": 0.9276666666666668,
+    "oracle_gap": 0.06746212121212114,
+    "per_dataset": {
+      "LAION1M": {
+        "acc": 0.6066666666666667,
+        "recall": 0.9996333333333334
+      },
+      "arxiv": {
+        "acc": 0.7166666666666667,
+        "recall": 0.9925
+      },
+      "tripclick": {
+        "acc": 0.927,
+        "recall": 0.9918333333333333
+      },
+      "yfcc": {
+        "acc": 0.5566666666666666,
+        "recall": 0.8389333333333334
+      },
+      "ytb_audio": {
+        "acc": 0.631,
+        "recall": 0.8734333333333334
+      },
+      "ytb_video": {
+        "acc": 0.785,
+        "recall": 0.8970000000000001
+      }
+    }
+  },
+  "LogisticRegression": {
+    "mean_accuracy": 0.7177777777777777,
+    "mean_recall": 0.9378106060606062,
+    "oracle_gap": 0.05731818181818171,
+    "per_dataset": {
+      "LAION1M": {
+        "acc": 0.7426666666666667,
+        "recall": 0.9986333333333334
+      },
+      "arxiv": {
+        "acc": 0.7933333333333333,
+        "recall": 0.9881666666666669
+      },
+      "tripclick": {
+        "acc": 0.927,
+        "recall": 0.9918333333333333
+      },
+      "yfcc": {
+        "acc": 0.42766666666666664,
+        "recall": 0.8854333333333334
+      },
+      "ytb_audio": {
+        "acc": 0.631,
+        "recall": 0.8734333333333334
+      },
+      "ytb_video": {
+        "acc": 0.785,
+        "recall": 0.8970000000000001
+      }
+    }
+  },
+  "feature_importance": {
+    "scenario_or": 0.1428740918636322,
+    "dim": 0.10882171243429184,
+    "label_entropy": 0.10103554278612137,
+    "scenario_equal": 0.09337948262691498,
+    "num_unique_combos": 0.0871010273694992,
+    "LID_mean": 0.0778844952583313,
+    "LID_median": 0.05402826890349388,
+    "RC_p95": 0.046400025486946106,
+    "DF_mean_swd": 0.04509923979640007,
+    "N": 0.04166487231850624,
+    "scenario_and": 0.03995727375149727,
+    "avg_labels_per_vec": 0.03466169536113739,
+    "label_cardinality": 0.02532164752483368,
+    "LID_std": 0.019883161410689354,
+    "label_cooccurrence": 0.01781432516872883,
+    "correlation_ratio": 0.016943709924817085,
+    "selectivity": 0.01253886241465807,
+    "max_label_freq": 0.005311375949531794,
+    "mean_label_freq": 0.005027709063142538,
+    "min_centroid_dist": 0.004057120066136122,
+    "query_label_count": 0.0039876834489405155,
+    "mean_centroid_dist": 0.003935604356229305,
+    "min_label_freq": 0.0036863191053271294,
+    "max_centroid_dist": 0.00364157697185874,
+    "RC_median": 0.002602358814328909,
+    "normalized_ratio": 0.0017304210923612118,
+    "RC_trimmed_mean": 0.0006103861378505826
+  }
+}

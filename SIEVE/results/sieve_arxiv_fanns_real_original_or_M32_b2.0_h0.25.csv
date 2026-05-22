@@ -1,0 +1,13 @@
+dataset,scenario,M,ef_construction,index_budget,hist_pct,num_threads,ef_search,build_time_s,index_size_mb,search_time_s,qps,recall_at_10
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,10,72.92,3222.7,1.577,634.2,0.980400
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,20,72.92,3222.7,1.576,634.6,0.986200
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,30,72.92,3222.7,1.386,721.3,0.991400
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,40,72.92,3222.7,1.415,706.5,0.992800
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,50,72.92,3222.7,1.391,718.9,0.993900
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,60,72.92,3222.7,1.396,716.3,0.994500
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,70,72.92,3222.7,1.400,714.2,0.995400
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,80,72.92,3222.7,1.405,711.5,0.995900
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,90,72.92,3222.7,1.403,712.7,0.996300
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,100,72.92,3222.7,1.430,699.4,0.999000
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,150,72.92,3222.7,1.511,661.8,0.999900
+arxiv_fanns_real,original_or,32,40,2.0,0.25,16,200,72.92,3222.7,1.536,650.9,1.000000

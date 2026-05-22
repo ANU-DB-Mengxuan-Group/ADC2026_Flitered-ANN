@@ -1,0 +1,313 @@
+Transposing (inplace)...
+31
+Time to read data: 2.29686
+Dataset size: 1055976
+dimension: 768
+M: 32
+ef_construction: 40
+Index vector budget: 1055976
+Bitvector cutoff: 1000
+Num threads: 16
+------------------------------------------------------
+candidate partitions: 49
+Time to setup historical query predicates: 0.00236466
+edges:97
+Initialized submodular optimizer.
+total vecs:0total budget:1055976Number of partitions: 17
+Number of edges: 97
+Time to select partitions: 0.000569516
+Total partitions:17
+Deleted partitions: 0
+New partitions to construct: 17
+New partitions vectors: 1143418
+Updated partitions.
+Done.
+Constructed all partitions. time: 197.924
+Hasse diagram edges: 17
+Created hasse diagram over partitions. time: 9.424e-06
+Dataset: tripclick, n=1055976, dim=768
+Loading ground truth...
+  Loaded 1000 GT entries
+Validating GT (100 samples)...
+  GT validation passed (100 samples checked)
+Loading query filters...
+Historical workload: 250/1000 queries (25%)
+
+Parameters:
+  M=32, ef_construction=40
+  index_budget=1.0 (1055976 vectors)
+  hist_pct=0.25, num_threads=16
+
+Building SIEVE index...
+Build time: 200.22s
+Index size (est.): 3609.3 MB
+Queries: 1000
+
+Searching (results -> /home/remote/u7905817/benchmarks/discrete/SIEVE/results/sieve_tripclick_original_or_M32_b1.0_h0.25.csv)...
+  ef=10... Time construct predicates: 0.00780544
+Time serve queries: 0.185038
+Predicate construction time: 2.5468e-05
+Predicate comparison time: 0.00241841
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.113271
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 0.406406
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 350
+Root search time: 1.82104
+Root average selectivity: 0.0714261
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 25
+Bruteforce search time: 0.525344
+Bruteforce distance comps: 349109
+HNSW distance calcs: 1565069
+recall=0.8537, QPS=5171
+  ef=20... Time construct predicates: 0.000241583
+Time serve queries: 0.293116
+Predicate construction time: 2.4893e-05
+Predicate comparison time: 0.00260923
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.139203
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 0.558226
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 350
+Root search time: 3.34003
+Root average selectivity: 0.0714261
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 25
+Bruteforce search time: 0.541061
+Bruteforce distance comps: 349109
+HNSW distance calcs: 2927804
+recall=0.8993, QPS=3405
+  ef=30... Time construct predicates: 0.000195774
+Time serve queries: 0.400344
+Predicate construction time: 2.4933e-05
+Predicate comparison time: 0.00272667
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.182853
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 0.751741
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 350
+Root search time: 4.76942
+Root average selectivity: 0.0714261
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 25
+Bruteforce search time: 0.56407
+Bruteforce distance comps: 363666
+HNSW distance calcs: 4370314
+recall=0.9287, QPS=2495
+  ef=40... Time construct predicates: 0.000215804
+Time serve queries: 0.499329
+Predicate construction time: 2.4691e-05
+Predicate comparison time: 0.00273649
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.221769
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 0.940405
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 350
+Root search time: 6.06915
+Root average selectivity: 0.0711855
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 25
+Bruteforce search time: 0.563109
+Bruteforce distance comps: 363666
+HNSW distance calcs: 5772623
+recall=0.9446, QPS=2001
+  ef=50... Time construct predicates: 0.000216094
+Time serve queries: 0.596192
+Predicate construction time: 2.4447e-05
+Predicate comparison time: 0.00281163
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.260722
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 1.12181
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 350
+Root search time: 7.33079
+Root average selectivity: 0.0712243
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 24
+Bruteforce search time: 0.541342
+Bruteforce distance comps: 349109
+HNSW distance calcs: 7181103
+recall=0.9541, QPS=1676
+  ef=60... Time construct predicates: 0.000215894
+Time serve queries: 0.708374
+Predicate construction time: 2.4742e-05
+Predicate comparison time: 0.00311531
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.306366
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 1.34715
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 331
+Root search time: 8.0328
+Root average selectivity: 0.0738952
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 44
+Bruteforce search time: 1.44311
+Bruteforce distance comps: 933723
+HNSW distance calcs: 7699839
+recall=0.9626, QPS=1411
+  ef=70... Time construct predicates: 0.000200601
+Time serve queries: 0.78685
+Predicate construction time: 2.4731e-05
+Predicate comparison time: 0.00318642
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.342403
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 1.50772
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 331
+Root search time: 9.08932
+Root average selectivity: 0.0738952
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 44
+Bruteforce search time: 1.44884
+Bruteforce distance comps: 933723
+HNSW distance calcs: 8925312
+recall=0.9685, QPS=1270
+  ef=80... Time construct predicates: 0.000195834
+Time serve queries: 0.887383
+Predicate construction time: 2.4562e-05
+Predicate comparison time: 0.00357846
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.390194
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 1.71751
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 302
+Root search time: 8.97638
+Root average selectivity: 0.0777314
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 72
+Bruteforce search time: 2.95564
+Bruteforce distance comps: 1973257
+HNSW distance calcs: 8772644
+recall=0.9737, QPS=1126
+  ef=90... Time construct predicates: 0.000205268
+Time serve queries: 0.952172
+Predicate construction time: 2.4624e-05
+Predicate comparison time: 0.00366974
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.419826
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 1.87728
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 302
+Root search time: 9.83553
+Root average selectivity: 0.0777314
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 73
+Bruteforce search time: 2.90845
+Bruteforce distance comps: 1958249
+HNSW distance calcs: 9836672
+recall=0.9765, QPS=1050
+  ef=100... Time construct predicates: 0.00019976
+Time serve queries: 1.02283
+Predicate construction time: 3.1471e-05
+Predicate comparison time: 0.00369914
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.459285
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 2.05234
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 301
+Root search time: 10.6875
+Root average selectivity: 0.0778661
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 74
+Bruteforce search time: 2.98356
+Bruteforce distance comps: 2012513
+HNSW distance calcs: 10821227
+recall=0.9792, QPS=977
+  ef=150... Time construct predicates: 0.000197646
+Time serve queries: 1.39234
+Predicate construction time: 2.4457e-05
+Predicate comparison time: 0.00429448
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.656411
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 2.96145
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 257
+Root search time: 12.1386
+Root average selectivity: 0.0837351
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 118
+Bruteforce search time: 6.23872
+Bruteforce distance comps: 3898891
+HNSW distance calcs: 12767679
+recall=0.9871, QPS=718
+  ef=200... Time construct predicates: 0.000195904
+Time serve queries: 1.66593
+Predicate construction time: 2.46339e-05
+Predicate comparison time: 0.00443832
+------------------------------------------------------
+Oracle searches: 191
+Oracle search time: 0.816773
+------------------------------------------------------
+Non-root upward searches: 434
+Non-root upward search time: 3.70132
+Non-root upward search average selectivity: 0.577782
+------------------------------------------------------
+Root searches: 250
+Root search time: 14.7802
+Root average selectivity: 0.0846126
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 125
+Bruteforce search time: 7.16413
+Bruteforce distance comps: 4424956
+HNSW distance calcs: 16365360
+recall=0.9906, QPS=600
+
+Results saved to /home/remote/u7905817/benchmarks/discrete/SIEVE/results/sieve_tripclick_original_or_M32_b1.0_h0.25.csv
+Index cleaned up

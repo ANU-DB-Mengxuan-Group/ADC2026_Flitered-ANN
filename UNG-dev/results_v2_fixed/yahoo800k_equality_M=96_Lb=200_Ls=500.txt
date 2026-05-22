@@ -1,0 +1,12 @@
+Loading data from /home/remote/u7905817/benchmarks/datasets/discrete/yahoo800k/yahoo800k_query_equal.bin and /home/remote/u7905817/benchmarks/datasets/discrete/yahoo800k/yahoo800k_query_equal_1based.txt ...
+- Number of points: 1000
+- Dimension: 768
+- Number of labels: 10
+- Time: 2 ms
+------------------------------------------------------------
+Loading index from /home/remote/u7905817/benchmarks/discrete/UNG-dev/indices_v2_fixed/yahoo800k/equality/index_M=96_L=200 ...
+- Index loaded in 8024 ms
+Ground truth loaded from /home/remote/u7905817/benchmarks/datasets/discrete/yahoo800k/yahoo800k_gt_equal.bin
+Start querying ...
+- Lsearch=500, time=929ms
+- all done

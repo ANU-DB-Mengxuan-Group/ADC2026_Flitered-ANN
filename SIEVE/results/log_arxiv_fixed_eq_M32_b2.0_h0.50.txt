@@ -1,0 +1,215 @@
+Transposing (inplace)...
+13
+Time to read data: 0.323507
+Dataset size: 132687
+dimension: 768
+M: 32
+ef_construction: 40
+Index vector budget: 265374
+Bitvector cutoff: 1000
+Num threads: 16
+------------------------------------------------------
+candidate partitions: 54
+Time to setup historical query predicates: 0.00152906
+edges:54
+Initialized submodular optimizer.
+total vecs:0total budget:265374Number of partitions: 54
+Number of edges: 54
+Time to select partitions: 0.000536484
+Total partitions:54
+Deleted partitions: 0
+New partitions to construct: 54
+New partitions vectors: 88419
+Updated partitions.
+Done.
+Constructed all partitions. time: 6.92202
+Hasse diagram edges: 54
+Created hasse diagram over partitions. time: 3.337e-05
+Dataset: arxiv, n=132687, dim=768
+Loading ground truth...
+  Loaded 200 GT entries
+Loading query filters...
+Historical workload: 100/200 queries (50%)
+
+Parameters:
+  M=32, ef_construction=40
+  index_budget=2.0 (265374 vectors)
+  hist_pct=0.5, num_threads=16
+
+Building SIEVE index...
+Build time: 7.25s
+Index size (est.): 907.0 MB
+Queries: 200
+
+Searching (results -> /home/remote/u7905817/benchmarks/discrete/SIEVE/results/sieve_arxiv_fixed_eq_M32_b2.0_h0.5.csv)...
+  ef=10... Time construct predicates: 0.000572638
+Time serve queries: 0.00851298
+Predicate construction time: 5.24699e-06
+Predicate comparison time: 0.00036793
+------------------------------------------------------
+Oracle searches: 171
+Oracle search time: 0.0488698
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 29
+Bruteforce search time: 0.0739585
+Bruteforce distance comps: 47992
+HNSW distance calcs: 37274
+recall=0.9155, QPS=21172
+  ef=20... Time construct predicates: 0.000105618
+Time serve queries: 0.00852213
+Predicate construction time: 5.00199e-06
+Predicate comparison time: 0.000364255
+------------------------------------------------------
+Oracle searches: 171
+Oracle search time: 0.0546066
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 29
+Bruteforce search time: 0.0679885
+Bruteforce distance comps: 47992
+HNSW distance calcs: 42229
+recall=0.9340, QPS=22703
+  ef=30... Time construct predicates: 0.000102633
+Time serve queries: 0.00936002
+Predicate construction time: 4.93699e-06
+Predicate comparison time: 0.000383077
+------------------------------------------------------
+Oracle searches: 171
+Oracle search time: 0.0681576
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 29
+Bruteforce search time: 0.0683608
+Bruteforce distance comps: 47992
+HNSW distance calcs: 56874
+recall=0.9660, QPS=20764
+  ef=40... Time construct predicates: 0.000123966
+Time serve queries: 0.0129526
+Predicate construction time: 5.16399e-06
+Predicate comparison time: 0.000427865
+------------------------------------------------------
+Oracle searches: 154
+Oracle search time: 0.0759156
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 46
+Bruteforce search time: 0.117648
+Bruteforce distance comps: 74738
+HNSW distance calcs: 66018
+recall=0.9815, QPS=15092
+  ef=50... Time construct predicates: 0.00010656
+Time serve queries: 0.0396716
+Predicate construction time: 5.192e-06
+Predicate comparison time: 0.00080317
+------------------------------------------------------
+Oracle searches: 0
+Oracle search time: 0
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 200
+Bruteforce search time: 0.613328
+Bruteforce distance comps: 328425
+HNSW distance calcs: 0
+recall=1.0000, QPS=5006
+  ef=60... Time construct predicates: 0.000102754
+Time serve queries: 0.0390056
+Predicate construction time: 5.645e-06
+Predicate comparison time: 0.000805768
+------------------------------------------------------
+Oracle searches: 0
+Oracle search time: 0
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 199
+Bruteforce search time: 0.603821
+Bruteforce distance comps: 328425
+HNSW distance calcs: 0
+recall=1.0000, QPS=5091
+  ef=70... Time construct predicates: 0.000104998
+Time serve queries: 0.0397513
+Predicate construction time: 5.106e-06
+Predicate comparison time: 0.000868068
+------------------------------------------------------
+Oracle searches: 0
+Oracle search time: 0
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 200
+Bruteforce search time: 0.615825
+Bruteforce distance comps: 328425
+HNSW distance calcs: 0
+recall=1.0000, QPS=4995
+  ef=80... Time construct predicates: 0.000101272
+Time serve queries: 0.0396562
+Predicate construction time: 5.22499e-06
+Predicate comparison time: 0.000880891
+------------------------------------------------------
+Oracle searches: 0
+Oracle search time: 0
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 199
+Bruteforce search time: 0.610406
+Bruteforce distance comps: 326810
+HNSW distance calcs: 0
+recall=1.0000, QPS=5007
+  ef=90... Time construct predicates: 0.000102774
+Time serve queries: 0.039572
+Predicate construction time: 5.61599e-06
+Predicate comparison time: 0.000814477
+------------------------------------------------------
+Oracle searches: 0
+Oracle search time: 0
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 200
+Bruteforce search time: 0.612289
+Bruteforce distance comps: 328425
+HNSW distance calcs: 0
+recall=1.0000, QPS=5018
+  ef=100... Time construct predicates: 0.000102454
+Time serve queries: 0.0391158
+Predicate construction time: 6.268e-06
+Predicate comparison time: 0.000824823
+------------------------------------------------------
+Oracle searches: 0
+Oracle search time: 0
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 200
+Bruteforce search time: 0.605985
+Bruteforce distance comps: 328425
+HNSW distance calcs: 0
+recall=1.0000, QPS=5077
+  ef=150... Time construct predicates: 9.9649e-05
+Time serve queries: 0.0391757
+Predicate construction time: 4.843e-06
+Predicate comparison time: 0.000837992
+------------------------------------------------------
+Oracle searches: 0
+Oracle search time: 0
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 200
+Bruteforce search time: 0.606884
+Bruteforce distance comps: 328425
+HNSW distance calcs: 0
+recall=1.0000, QPS=5069
+  ef=200... Time construct predicates: 0.000103495
+Time serve queries: 0.0394392
+Predicate construction time: 5.39999e-06
+Predicate comparison time: 0.00082838
+------------------------------------------------------
+Oracle searches: 0
+Oracle search time: 0
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 200
+Bruteforce search time: 0.609846
+Bruteforce distance comps: 328425
+HNSW distance calcs: 0
+recall=1.0000, QPS=5036
+
+Results saved to /home/remote/u7905817/benchmarks/discrete/SIEVE/results/sieve_arxiv_fixed_eq_M32_b2.0_h0.5.csv
+Index cleaned up

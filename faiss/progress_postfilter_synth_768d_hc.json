@@ -1,0 +1,9 @@
+{
+  "completed": [
+    "synth_768d_hc_M=64_efc=400_build",
+    "synth_768d_hc_and_M=64_efc=400",
+    "synth_768d_hc_or_M=64_efc=400",
+    "synth_768d_hc_equal_M=64_efc=400"
+  ],
+  "failed": []
+}

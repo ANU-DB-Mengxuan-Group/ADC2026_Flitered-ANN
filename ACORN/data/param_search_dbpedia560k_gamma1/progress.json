@@ -1,0 +1,148 @@
+{
+  "progress": {
+    "[32, 48, 1, null]": {
+      "build_done": true,
+      "build_time": 7991.278445005417,
+      "index_size": 1854.315320968628
+    },
+    "[32, 48, 1, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.9403,
+      "qps": 34.9757
+    },
+    "[32, 48, 1, \"or\"]": {
+      "search_done": true,
+      "recall": 0.8935,
+      "qps": 29.0758
+    },
+    "[32, 48, 1, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9606,
+      "qps": 34.6024
+    },
+    "[32, 64, 1, null]": {
+      "build_done": true,
+      "build_time": 8397.821881055832,
+      "index_size": 1888.495008468628
+    },
+    "[32, 64, 1, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.9489,
+      "qps": 33.1386
+    },
+    "[32, 64, 1, \"or\"]": {
+      "search_done": true,
+      "recall": 0.8916,
+      "qps": 28.7851
+    },
+    "[32, 64, 1, \"and\"]": {
+      "search_done": true,
+      "recall": 0.965,
+      "qps": 33.6113
+    },
+    "[48, 48, 1, null]": {
+      "build_done": true,
+      "build_time": 12232.827298879623,
+      "index_size": 1905.5600109100342
+    },
+    "[48, 48, 1, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.972,
+      "qps": 25.1112
+    },
+    "[48, 48, 1, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9518,
+      "qps": 21.1181
+    },
+    "[48, 48, 1, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9877,
+      "qps": 25.3945
+    },
+    "[48, 64, 1, null]": {
+      "build_done": true,
+      "build_time": 12746.715991735458,
+      "index_size": 1939.7396984100342
+    },
+    "[48, 64, 1, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.9773,
+      "qps": 22.9464
+    },
+    "[48, 64, 1, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9552,
+      "qps": 20.5885
+    },
+    "[48, 64, 1, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9889,
+      "qps": 23.9146
+    },
+    "[48, 96, 1, null]": {
+      "build_done": true,
+      "build_time": 13631.51860666275,
+      "index_size": 2008.0990734100342
+    },
+    "[48, 96, 1, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.9803,
+      "qps": 20.0335
+    },
+    "[48, 96, 1, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9489,
+      "qps": 20.1142
+    },
+    "[48, 96, 1, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9869,
+      "qps": 22.0343
+    },
+    "[64, 64, 1, null]": {
+      "build_done": true,
+      "build_time": 16844.65678668022,
+      "index_size": 1991.0034160614014
+    },
+    "[64, 64, 1, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.985,
+      "qps": 17.1819
+    },
+    "[64, 64, 1, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9757,
+      "qps": 16.2846
+    },
+    "[64, 64, 1, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9956,
+      "qps": 18.6811
+    },
+    "[64, 96, 1, null]": {
+      "build_done": true,
+      "build_time": 17967.237763166428,
+      "index_size": 2059.3627910614014
+    },
+    "[64, 96, 1, \"equal\"]": {
+      "search_done": true,
+      "recall": 0.98,
+      "qps": 14.515
+    },
+    "[64, 96, 1, \"or\"]": {
+      "search_done": true,
+      "recall": 0.9738,
+      "qps": 15.5426
+    },
+    "[64, 96, 1, \"and\"]": {
+      "search_done": true,
+      "recall": 0.9951,
+      "qps": 16.6762
+    }
+  },
+  "last_update": "2026-04-30T14:15:18.934797",
+  "total_tasks": 28,
+  "completed_builds": 7,
+  "completed_searches": 21
+}

@@ -1,0 +1,286 @@
+Transposing (inplace)...
+200390
+Time to read data: 0.696187
+Dataset size: 1000000
+dimension: 192
+M: 16
+ef_construction: 40
+Index vector budget: 1000000
+Bitvector cutoff: 1000
+Num threads: 16
+------------------------------------------------------
+candidate partitions: 114
+Time to setup historical query predicates: 0.0183354
+edges:195
+Initialized submodular optimizer.
+total vecs:0total budget:804878Number of partitions: 114
+Number of edges: 195
+Time to select partitions: 0.00064031
+Total partitions:114
+Deleted partitions: 0
+New partitions to construct: 114
+New partitions vectors: 905387
+Updated partitions.
+Done.
+Constructed all partitions. time: 31.1525
+Hasse diagram edges: 114
+Created hasse diagram over partitions. time: 0.000170736
+Dataset: yfcc, n=1000000, dim=192
+Loading ground truth...
+  Loaded 1000 GT entries
+Validating GT (100 samples)...
+  GT error query 82: neighbor 622812 labels {91424, 88448, 2241, 131107, 5414, 1288, 9, 47980, 15, 2929, 753, 29398, 66426} don't contain query labels {9, 35, 15}
+  WARNING: 1/100 GT entries have label mismatches!
+Loading query filters...
+Historical workload: 250/1000 queries (25%)
+
+Parameters:
+  M=16, ef_construction=40
+  index_budget=1.0 (1000000 vectors)
+  hist_pct=0.25, num_threads=16
+
+Building SIEVE index...
+Build time: 31.87s
+Index size (est.): 976.6 MB
+Queries: 1000
+
+Searching (results -> /home/remote/u7905817/benchmarks/discrete/SIEVE/results/sieve_yfcc_original_and_M16_b1.0_h0.25.csv)...
+  ef=10... Time construct predicates: 0.0230512
+Time serve queries: 0.0490439
+Predicate construction time: 1.69199e-05
+Predicate comparison time: 0.00162081
+------------------------------------------------------
+Oracle searches: 437
+Oracle search time: 0.04418
+------------------------------------------------------
+Non-root upward searches: 23
+Non-root upward search time: 0.00506977
+Non-root upward search average selectivity: 0.305145
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.000886579
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 539
+Bruteforce search time: 0.704408
+Bruteforce distance comps: 1347440
+HNSW distance calcs: 79010
+recall=0.9760, QPS=13711
+  ef=20... Time construct predicates: 0.000703794
+Time serve queries: 0.0489041
+Predicate construction time: 1.68119e-05
+Predicate comparison time: 0.00162302
+------------------------------------------------------
+Oracle searches: 437
+Oracle search time: 0.047041
+------------------------------------------------------
+Non-root upward searches: 16
+Non-root upward search time: 0.00426203
+Non-root upward search average selectivity: 0.313765
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00186622
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 546
+Bruteforce search time: 0.697239
+Bruteforce distance comps: 1356690
+HNSW distance calcs: 87310
+recall=0.9790, QPS=19887
+  ef=30... Time construct predicates: 0.000675903
+Time serve queries: 0.0510694
+Predicate construction time: 1.70469e-05
+Predicate comparison time: 0.00164428
+------------------------------------------------------
+Oracle searches: 437
+Oracle search time: 0.0587645
+------------------------------------------------------
+Non-root upward searches: 13
+Non-root upward search time: 0.0052306
+Non-root upward search average selectivity: 0.321208
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.0024018
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 549
+Bruteforce search time: 0.717865
+Bruteforce distance comps: 1359782
+HNSW distance calcs: 119748
+recall=0.9876, QPS=19076
+  ef=40... Time construct predicates: 0.000688582
+Time serve queries: 0.0517928
+Predicate construction time: 1.69329e-05
+Predicate comparison time: 0.0016969
+------------------------------------------------------
+Oracle searches: 437
+Oracle search time: 0.0688266
+------------------------------------------------------
+Non-root upward searches: 8
+Non-root upward search time: 0.00362103
+Non-root upward search average selectivity: 0.332148
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00313446
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 554
+Bruteforce search time: 0.71452
+Bruteforce distance comps: 1369474
+HNSW distance calcs: 143600
+recall=0.9900, QPS=18821
+  ef=50... Time construct predicates: 0.000688301
+Time serve queries: 0.0530597
+Predicate construction time: 1.69879e-05
+Predicate comparison time: 0.00165851
+------------------------------------------------------
+Oracle searches: 427
+Oracle search time: 0.0777436
+------------------------------------------------------
+Non-root upward searches: 4
+Non-root upward search time: 0.0022872
+Non-root upward search average selectivity: 0.336085
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00378931
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 568
+Bruteforce search time: 0.74055
+Bruteforce distance comps: 1417878
+HNSW distance calcs: 165601
+recall=0.9921, QPS=18378
+  ef=60... Time construct predicates: 0.000677154
+Time serve queries: 0.0563577
+Predicate construction time: 1.68659e-05
+Predicate comparison time: 0.00178488
+------------------------------------------------------
+Oracle searches: 409
+Oracle search time: 0.0848005
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00424925
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 590
+Bruteforce search time: 0.781318
+Bruteforce distance comps: 1466186
+HNSW distance calcs: 180443
+recall=0.9930, QPS=17327
+  ef=70... Time construct predicates: 0.000665688
+Time serve queries: 0.0583084
+Predicate construction time: 1.69929e-05
+Predicate comparison time: 0.00178161
+------------------------------------------------------
+Oracle searches: 393
+Oracle search time: 0.0918536
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00459929
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 606
+Bruteforce search time: 0.803869
+Bruteforce distance comps: 1498648
+HNSW distance calcs: 199658
+recall=0.9937, QPS=16764
+  ef=80... Time construct predicates: 0.00067365
+Time serve queries: 0.0604228
+Predicate construction time: 1.69709e-05
+Predicate comparison time: 0.00187815
+------------------------------------------------------
+Oracle searches: 373
+Oracle search time: 0.0961863
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00544447
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 626
+Bruteforce search time: 0.831654
+Bruteforce distance comps: 1532905
+HNSW distance calcs: 216536
+recall=0.9945, QPS=16189
+  ef=90... Time construct predicates: 0.000670344
+Time serve queries: 0.0613169
+Predicate construction time: 1.69379e-05
+Predicate comparison time: 0.00195201
+------------------------------------------------------
+Oracle searches: 352
+Oracle search time: 0.098084
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00607001
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 647
+Bruteforce search time: 0.84499
+Bruteforce distance comps: 1598820
+HNSW distance calcs: 229525
+recall=0.9950, QPS=15960
+  ef=100... Time construct predicates: 0.000666418
+Time serve queries: 0.0670739
+Predicate construction time: 1.70209e-05
+Predicate comparison time: 0.00207228
+------------------------------------------------------
+Oracle searches: 311
+Oracle search time: 0.0974026
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00689873
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 688
+Bruteforce search time: 0.938021
+Bruteforce distance comps: 1702504
+HNSW distance calcs: 227063
+recall=0.9956, QPS=14623
+  ef=150... Time construct predicates: 0.000677024
+Time serve queries: 0.084798
+Predicate construction time: 1.72379e-05
+Predicate comparison time: 0.00231724
+------------------------------------------------------
+Oracle searches: 168
+Oracle search time: 0.0693072
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.00989421
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 831
+Bruteforce search time: 1.24774
+Bruteforce distance comps: 2262804
+HNSW distance calcs: 187497
+recall=0.9967, QPS=11612
+  ef=200... Time construct predicates: 0.000662723
+Time serve queries: 0.0942039
+Predicate construction time: 1.70859e-05
+Predicate comparison time: 0.00241015
+------------------------------------------------------
+Oracle searches: 124
+Oracle search time: 0.0608207
+------------------------------------------------------
+Root searches: 1
+Root search time: 0.0129851
+Root average selectivity: 0.067433
+------------------------------------------------------
+Covering eval time: 0
+Bruteforce searches: 875
+Bruteforce search time: 1.403
+Bruteforce distance comps: 2471427
+HNSW distance calcs: 187874
+recall=0.9975, QPS=10471
+
+Results saved to /home/remote/u7905817/benchmarks/discrete/SIEVE/results/sieve_yfcc_original_and_M16_b1.0_h0.25.csv
+Index cleaned up

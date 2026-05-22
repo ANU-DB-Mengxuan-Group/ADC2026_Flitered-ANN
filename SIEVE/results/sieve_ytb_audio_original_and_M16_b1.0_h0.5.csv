@@ -1,0 +1,13 @@
+dataset,scenario,M,ef_construction,index_budget,hist_pct,num_threads,ef_search,build_time_s,index_size_mb,search_time_s,qps,recall_at_10
+ytb_audio,original_and,16,40,1.0,0.5,16,10,177.09,3662.1,0.078,12743.0,0.769000
+ytb_audio,original_and,16,40,1.0,0.5,16,20,177.09,3662.1,0.056,17937.6,0.798300
+ytb_audio,original_and,16,40,1.0,0.5,16,30,177.09,3662.1,0.066,15214.4,0.837200
+ytb_audio,original_and,16,40,1.0,0.5,16,40,177.09,3662.1,0.071,14007.9,0.857000
+ytb_audio,original_and,16,40,1.0,0.5,16,50,177.09,3662.1,0.078,12756.4,0.870900
+ytb_audio,original_and,16,40,1.0,0.5,16,60,177.09,3662.1,0.084,11868.0,0.882500
+ytb_audio,original_and,16,40,1.0,0.5,16,70,177.09,3662.1,0.089,11214.7,0.890900
+ytb_audio,original_and,16,40,1.0,0.5,16,80,177.09,3662.1,0.097,10279.8,0.897000
+ytb_audio,original_and,16,40,1.0,0.5,16,90,177.09,3662.1,0.102,9833.3,0.903600
+ytb_audio,original_and,16,40,1.0,0.5,16,100,177.09,3662.1,0.111,9048.3,0.910400
+ytb_audio,original_and,16,40,1.0,0.5,16,150,177.09,3662.1,0.123,8136.6,0.924700
+ytb_audio,original_and,16,40,1.0,0.5,16,200,177.09,3662.1,0.135,7427.4,0.939500

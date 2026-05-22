@@ -1,0 +1,31 @@
+*.swp
+*.swo
+*.o
+*.a
+*.dSYM
+*.so
+*.dylib
+*.pyc
+*~
+/config.*
+/aclocal.m4
+/autom4te.cache/
+/makefile.inc
+/bin/
+/c_api/bin/
+/c_api/gpu/bin/
+/tests/test
+/tests/gtest/
+faiss/python/swigfaiss_avx2.swig
+/tmp/
+*.json
+/Datasets/
+# Param search experiment outputs:
+# ignore raw build logs and per-config result files,
+# keep only summary.csv and progress.json (small metadata)
+data/param_search_*/indices/
+data/param_search_*/results/**
+!data/param_search_*/results/
+!data/param_search_*/results/*/
+!data/param_search_*/results/**/summary.csv
+!data/param_search_*/progress.json

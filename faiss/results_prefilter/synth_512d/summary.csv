@@ -1,0 +1,4 @@
+dataset,scenario,method,qps,recall@10,avg_candidates,filter_time,search_time,status,timestamp
+synth_512d,and,prefilter_bruteforce,93.09,1.0,8910.61,8.00172,2.62235,success,2026-05-05T17:49:08.777876
+synth_512d,or,prefilter_bruteforce,20.856,0.9999,123363.0,12.2915,34.8877,success,2026-05-05T17:50:07.434246
+synth_512d,equal,prefilter_bruteforce,142.152,1.0,6707.78,5.01049,1.9765,success,2026-05-05T17:50:25.151484

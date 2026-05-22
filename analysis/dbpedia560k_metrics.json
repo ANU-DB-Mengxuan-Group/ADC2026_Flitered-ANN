@@ -1,0 +1,123 @@
+{
+  "dataset": "dbpedia560k",
+  "n_vectors": 560000,
+  "dimension": 768,
+  "label_stats": {
+    "label_cardinality": 14,
+    "label_entropy": 3.701588481957131,
+    "num_unique_combos": 282,
+    "mean_combo_size": 1985.8156028368794,
+    "median_combo_size": 41.0,
+    "min_combo_size": 1,
+    "max_combo_size": 85863
+  },
+  "lid": {
+    "mean": 28.11294941830635,
+    "median": 27.66401958465576,
+    "std": 9.860691950884254,
+    "min": 2.387254476547241,
+    "max": 75.21857452392578,
+    "k": 100,
+    "n_queries": 1000
+  },
+  "rc": {
+    "median": 1.1996157765388489,
+    "trimmed_mean": 1.2369804279009502,
+    "p5": 1.1010285913944244,
+    "p95": 1.7202924191951752,
+    "k": 100,
+    "n_queries": 1000
+  },
+  "distribution_factor": {
+    "per_label": [
+      {
+        "label": 0,
+        "subset_size": 182993,
+        "selectivity": 0.32677321428571426,
+        "swd": 0.00502420092840146
+      },
+      {
+        "label": 1,
+        "subset_size": 79941,
+        "selectivity": 0.1427517857142857,
+        "swd": 0.009368922928745674
+      },
+      {
+        "label": 2,
+        "subset_size": 191580,
+        "selectivity": 0.34210714285714283,
+        "swd": 0.0057038412166894046
+      },
+      {
+        "label": 3,
+        "subset_size": 105982,
+        "selectivity": 0.18925357142857144,
+        "swd": 0.009912823508539163
+      },
+      {
+        "label": 4,
+        "subset_size": 108651,
+        "selectivity": 0.19401964285714285,
+        "swd": 0.008946029990895154
+      },
+      {
+        "label": 5,
+        "subset_size": 61913,
+        "selectivity": 0.11055892857142857,
+        "swd": 0.011884344134377117
+      },
+      {
+        "label": 6,
+        "subset_size": 175423,
+        "selectivity": 0.3132553571428571,
+        "swd": 0.006836392154413282
+      },
+      {
+        "label": 7,
+        "subset_size": 159267,
+        "selectivity": 0.28440535714285714,
+        "swd": 0.006569708766125521
+      },
+      {
+        "label": 8,
+        "subset_size": 99432,
+        "selectivity": 0.17755714285714286,
+        "swd": 0.010903112413329853
+      },
+      {
+        "label": 9,
+        "subset_size": 85776,
+        "selectivity": 0.15317142857142857,
+        "swd": 0.011909276878215589
+      },
+      {
+        "label": 10,
+        "subset_size": 81687,
+        "selectivity": 0.14586964285714285,
+        "swd": 0.012755873815215306
+      },
+      {
+        "label": 11,
+        "subset_size": 89902,
+        "selectivity": 0.16053928571428572,
+        "swd": 0.008069405941008133
+      },
+      {
+        "label": 12,
+        "subset_size": 68971,
+        "selectivity": 0.1231625,
+        "swd": 0.011167399729859931
+      },
+      {
+        "label": 13,
+        "subset_size": 188480,
+        "selectivity": 0.3365714285714286,
+        "swd": 0.005632736866874814
+      }
+    ],
+    "mean_swd": 0.008906004948049315,
+    "std_swd": 0.0025287147209022776,
+    "max_swd": 0.012755873815215306,
+    "min_swd": 0.00502420092840146
+  }
+}

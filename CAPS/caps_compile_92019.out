@@ -1,0 +1,26 @@
+Compiling CAPS...
+rm -f index
+g++ -I ../faiss -I include/ -std=gnu++17 -lgfortran -Wall -O3 -w -mavx -fopenmp \
+    src/readfile.cpp \
+    src/utils.cpp \
+    src/FilterIndexHamming.cpp \
+    src/index.cpp \
+  -o index ../faiss/build/faiss/libfaiss.a /home/remote/u7905817/miniconda3/envs/benchmark/lib/libmkl_intel_lp64.so /home/remote/u7905817/miniconda3/envs/benchmark/lib/libmkl_gnu_thread.so /home/remote/u7905817/miniconda3/envs/benchmark/lib/libmkl_core.so -lpthread -lm -ldl -lgfortran -fopenmp
+rm -f query
+g++ -I ../faiss -I include/ -std=gnu++17 -lgfortran -Wall -O3 -w -mavx -fopenmp \
+    src/readfile.cpp \
+    src/utils.cpp \
+    src/FilterIndexHamming.cpp \
+    src/query.cpp \
+  -o query ../faiss/build/faiss/libfaiss.a /home/remote/u7905817/miniconda3/envs/benchmark/lib/libmkl_intel_lp64.so /home/remote/u7905817/miniconda3/envs/benchmark/lib/libmkl_gnu_thread.so /home/remote/u7905817/miniconda3/envs/benchmark/lib/libmkl_core.so -lpthread -lm -ldl -lgfortran -fopenmp
+Compile done!
+	linux-vdso.so.1 (0x00007ffe2b728000)
+	libmkl_intel_lp64.so.2 => not found
+	libmkl_gnu_thread.so.2 => not found
+	libmkl_core.so.2 => not found
+	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fede4800000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fede4717000)
+	libgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x00007fede4b05000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fede4ad7000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fede4400000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fede4c34000)

@@ -1,0 +1,12 @@
+{
+  "completed": [
+    "tripclick_nb_64",
+    "tripclick_nb_128",
+    "tripclick_nb_256",
+    "tripclick_nb_512",
+    "tripclick_nb_1024",
+    "tripclick_nb_2048",
+    "tripclick_nb_4096"
+  ],
+  "failed": []
+}

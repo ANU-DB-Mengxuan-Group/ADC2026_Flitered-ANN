@@ -1,0 +1,7 @@
+dataset,algorithm,recall@10,qps
+arxiv,NHQ,0.9977,931.085
+arxiv,CAPS,0.926,6748.13
+arxiv,ACORN,1.0,1242.76
+yfcc,NHQ,0.9636,1150.43
+yfcc,CAPS,0.8353,11611.4
+yfcc,ACORN,0.9989,488.563

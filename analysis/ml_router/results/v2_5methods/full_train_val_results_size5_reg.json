@@ -1,0 +1,51 @@
+{
+  "experiment": "full_train_val",
+  "n_methods": 5,
+  "methods": [
+    "UNG",
+    "Post-filter",
+    "SIEVE",
+    "ACORN",
+    "FilteredVamana"
+  ],
+  "feature_set": "size5",
+  "regression": true,
+  "n_train": 13200,
+  "n_val": 15000,
+  "oracle_recall": 0.99542,
+  "RuleRouter": {
+    "accuracy": 0.6284666666666666,
+    "recall": 0.9562866666666666,
+    "time_us_per_query": 3.789945972000001
+  },
+  "RandomForest": {
+    "accuracy": 0.7239333333333333,
+    "recall": 0.9338533333333333,
+    "time_us_per_query": 1.7176080833333338
+  },
+  "MLP": {
+    "accuracy": 0.7286,
+    "recall": 0.9091133333333332,
+    "time_us_per_query": 0.14322697200000076
+  },
+  "LogisticRegression": {
+    "accuracy": 0.7108666666666666,
+    "recall": 0.9091866666666666,
+    "time_us_per_query": 0.027629833333333426
+  },
+  "RF-Reg": {
+    "accuracy": 0.4778,
+    "recall": 0.99062,
+    "time_us_per_query": 8.860609638666665
+  },
+  "MLP-Reg": {
+    "accuracy": 0.3102,
+    "recall": 0.9771733333333332,
+    "time_us_per_query": 0.4821953613333321
+  },
+  "Ridge": {
+    "accuracy": 0.41633333333333333,
+    "recall": 0.9855066666666666,
+    "time_us_per_query": 0.08366355600000001
+  }
+}
